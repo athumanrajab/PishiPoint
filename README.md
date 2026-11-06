@@ -72,6 +72,14 @@ Create a production build with:
 npm run build
 ```
 
+## Automatic Deployment
+
+Netlify is connected to this GitHub repository with `main` as its production branch. Push or merge changes into `main` to start an automatic production deployment.
+
+The repository's `netlify.toml` configures Node.js 22, runs `npm run build`, and publishes the generated `dir` folder. The build includes both `index.html` and `recipes.html`. These repository settings override the build command and publish directory in the Netlify dashboard.
+
+Track build progress and failures in [Netlify Deploys](https://app.netlify.com/projects/pishipoint/deploys). Successful production deployments update [pishipoint.netlify.app](https://pishipoint.netlify.app/). For a manual rebuild of the latest `main` commit, use **Trigger deploy** on the Deploys page.
+
 ## How to Use
 
 1. Open PishiPoint and search for a dish or ingredient in English or Swahili, such as **chicken**, **kuku**, or **wali wa nazi**.
