@@ -1,8 +1,6 @@
 /** @file Adds progressive scroll reveals and a responsive sticky-header state. */
 
 const revealSelector = [
-  ".hero__copy > :not(h1)",
-  ".hero__visual",
   ".section-heading",
   ".local-table > *",
   ".category-card",
@@ -44,6 +42,8 @@ if (
   const observeGroup = (elements) => {
     elements.forEach((element, index) => {
       if (revealTargets.has(element)) return;
+      // Above-the-fold content is immediately visible, without reveal delays.
+      if (element.getBoundingClientRect().top < window.innerHeight) return;
 
       revealTargets.add(element);
       element.classList.add("scroll-reveal");
