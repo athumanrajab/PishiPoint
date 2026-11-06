@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=description content="Search recipes and discover your next favourite meal with PishiPoint."><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel=stylesheet><link rel="icon shortcut" href=/favicon.b2c0a068.jpg type=image/jpeg><link rel=stylesheet href=/recipes.351df061.css><script defer type=module src=/PishiPoint.461c71d4.js></script><title>Explore recipes · PishiPoint</title><body data-page=recipes>
+    <div class=container>
+      <header class=header>
+        <a class=header__brand href=/index.html#home aria-label="PishiPoint home">
+          <img src=/logo.41bcafdc.jpg alt=PishiPoint class=header__logo>
+        </a>
+        <button class=nav__toggle type=button aria-expanded=false aria-controls=primary-navigation>
+          <span class=nav__toggle-icon aria-hidden=true></span>
+          <span class=nav__toggle-label>Menu</span>
+        </button>
+        <nav class=nav id=primary-navigation aria-label="Main navigation">
+          <ul class=nav__list>
+            <li class=nav__item><a class=nav__link href=/index.html#home>Home</a></li>
+            <li class=nav__item><a class=nav__link href=/recipes.html>Explore</a></li>
+            <li class=nav__item><a class=nav__link href=/index.html#tanzanian>Tanzanian</a></li>
+            <li class=nav__item><a class=nav__link href=/index.html#global>Global flavours</a></li>
+            <li class=nav__item><a class=nav__link href=/index.html#about>Our story</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class=recipe-page>
+        <section class=live-discovery id=explore-results aria-labelledby=discovery-heading>
+          <div class=section-heading>
+            <div>
+              <p class=eyebrow>Search the recipe shelf</p>
+              <h1 id=discovery-heading>Find something delicious.</h1>
+            </div>
+            <p>Search a dish or ingredient to find recipes from the PishiPoint library.</p>
+          </div>
+
+          <div class=search-tools>
+            <form class=search role=search aria-label="Search recipes">
+              <label class=visually-hidden for=recipe-search-input>
+                Search by recipe or ingredient
+              </label>
+              <svg aria-hidden=true class=search__icon><use href=#icon-search /></svg>
+              <input type=search id=recipe-search-input class=search__field placeholder="Try rice, fish, or an ingredient..." autocomplete=off>
+              <button class="btn search__btn">
+                <span>Find a recipe</span>
+                <svg aria-hidden=true><use href=#icon-arrow-right /></svg>
+              </button>
+            </form>
+            <div class=page-actions role=group aria-label="Recipe tools">
+              <button class="nav__btn nav__btn--add-recipe" type=button>
+                <svg aria-hidden=true class=nav__icon><use href=#icon-edit /></svg>
+                <span>Add recipe</span>
+              </button>
+              <div class=page-actions__bookmarks>
+                <button class="nav__btn nav__btn--bookmarks" type=button aria-expanded=false aria-controls=bookmark-panel>
+                  <svg aria-hidden=true class=nav__icon><use href=#icon-bookmark /></svg>
+                  <span>Bookmarks</span>
+                </button>
+                <div class=bookmarks id=bookmark-panel>
+                  <ul class=bookmarks__list>
+                    <li class=message>
+                      <span aria-hidden=true><svg><use href=#icon-smile /></svg></span>
+                      <p>No bookmarks yet. Find a nice recipe and bookmark it :)</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=discovery__workspace>
+            <aside class=search-results aria-label="Recipe search results" aria-live=polite>
+              <ul class=results>
+                <li class=results__hint>
+                  <strong>Start with a craving</strong>
+                  Search for a dish or ingredient and recipes will appear here.
+                </li>
+              </ul>
+              <div class=pagination></div>
+            </aside>
+
+            <div class=recipe>
+              <div class=message>
+                <div><svg><use href=#icon-smile /></svg></div>
+                <p>Search above to bring the first recipe to the table.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="hidden overlay" aria-hidden=true></div>
+    <div class="add-recipe-window hidden" role=dialog aria-modal=true aria-label="Add a recipe">
+      <button class=btn--close-modal type=button aria-label="Close add recipe dialog">×</button>
+      <form class=upload>
+        <div class=upload__column>
+          <h3 class=upload__heading>Recipe data</h3>
+          <label for=recipe-title>Title</label>
+          <input id=recipe-title required name=title>
+          <label for=recipe-url>URL</label>
+          <input id=recipe-url required name=sourceUrl type=url>
+          <label for=recipe-image>Image URL</label>
+          <input id=recipe-image required name=image type=url>
+          <label for=recipe-publisher>Publisher</label>
+          <input id=recipe-publisher required name=publisher>
+          <label for=recipe-time>Prep time</label>
+          <input id=recipe-time required name=cookingTime type=number min=1>
+          <label for=recipe-servings>Servings</label>
+          <input id=recipe-servings required name=servings type=number min=1>
+        </div>
+        <div class=upload__column>
+          <h3 class=upload__heading>Ingredients</h3>
+          <label for=recipe-ingredient-1>Ingredient 1</label>
+          <input id=recipe-ingredient-1 required name=ingredient-1 placeholder="Format: 'Quantity,Unit,Description'">
+          <label for=recipe-ingredient-2>Ingredient 2</label>
+          <input id=recipe-ingredient-2 name=ingredient-2 placeholder="Format: 'Quantity,Unit,Description'">
+          <label for=recipe-ingredient-3>Ingredient 3</label>
+          <input id=recipe-ingredient-3 name=ingredient-3 placeholder="Format: 'Quantity,Unit,Description'">
+          <label for=recipe-ingredient-4>Ingredient 4</label>
+          <input id=recipe-ingredient-4 name=ingredient-4 placeholder="Format: 'Quantity,Unit,Description'">
+          <label for=recipe-ingredient-5>Ingredient 5</label>
+          <input id=recipe-ingredient-5 name=ingredient-5 placeholder="Format: 'Quantity,Unit,Description'">
+          <label for=recipe-ingredient-6>Ingredient 6</label>
+          <input id=recipe-ingredient-6 name=ingredient-6 placeholder="Format: 'Quantity,Unit,Description'">
+        </div>
+        <button class="btn upload__btn">
+          <svg><use href=#icon-upload-cloud /></svg>
+          <span>Upload</span>
+        </button>
+      </form>
+    </div>
+  
+

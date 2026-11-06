@@ -1,0 +1,6518 @@
+[
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "lemon zest"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "fresh lemon juice"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground black pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "chicken thighs and legs"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ginger, minced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "hot red chilli (optional)"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2014/09/nyama-ya-kuku-ya-kuchoma-grilled-chicken.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirDoO7L0axbFy9COjMe2FqKpUfyqQivsLjfHu_GM-atmgI0-ps7jHSQmeJYR-KdtdXvJ-SWUsYJxkWCsNmEDbHiI0CSSLuKfByw37UZiX5p26y5_ayW841y35OhqkDJx5kZvQEgqczcFv7/w1200-h630-p-k-no-nu/2014-05-11+17.04.08.jpg",
+    "title": "Grilled Chicken (Kuku wa Kuchoma)",
+    "servings": 4,
+    "cooking_time": 45,
+    "id": "tz-001",
+    "description": "Chicken thighs and legs marinated in lemon, ginger and chilli and grilled Tanzanian-style.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "chicken breast"
+      },
+      {
+        "quantity": 1,
+        "unit": "can",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "aubergine"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "potatoes"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground black pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onions"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "garlic"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2022/02/chicken-coconut-stew-mchuzi-wa-kuku-na.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw8chD-M7xd1dd29GSiuqP0BLc3AfuwF8wyULR39ieqnhB6cozDFdbJFSX0X9EjVqYtL39_e7xVvUsE-pbwZKoCoLAB75mwdpZsoSl2GwynJL7_jTUGpX0uOsJzRJ0Ku7EjW4K-yanHVTt/w1200-h630-p-k-no-nu/1574748877918822-0.png",
+    "title": "Chicken Coconut Stew (Mchuzi wa Kuku wa Nazi)",
+    "servings": 4,
+    "cooking_time": 45,
+    "id": "tz-002",
+    "description": "Chicken breast simmered with aubergine and potatoes in a peppery coconut sauce.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.25,
+        "unit": "lb",
+        "description": "beef, cubed"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium onion, finely diced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large garlic cloves, minced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ginger paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "turmeric powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cayenne pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "coriander powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground cinnamon"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "red bell pepper, sliced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "green bell pepper, sliced"
+      },
+      {
+        "quantity": 0.33,
+        "unit": "cup",
+        "description": "green peas"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "bunch",
+        "description": "cilantro, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "carrots, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cornstarch"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://stellasmeza.blogspot.com/2012/10/beef-curry-stew-with-peppers-mchuzi-wa.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe-JvJc9B0kLVzO19_vwUf35BDTCKQYd680kPR-lacvFFQ-ysz0Me0OBmtlkpKDj0puBLegqt4W7z9EBQvO2LXeKzUH8uUlPqcKSYFxafLbo8S33hZZFWEyP7BCAOR3iQurhBJEqcpsmnA/w1200-h630-p-k-no-nu/finished+mchuzi.JPG",
+    "title": "Beef Curry Stew (Mchuzi wa Nyama)",
+    "servings": 4,
+    "cooking_time": 60,
+    "id": "tz-003",
+    "description": "Everyday beef stew cooked with turmeric, curry, peppers, carrots and peas, served with rice or chapati.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "onion, finely chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "garlic clove, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "turmeric"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "chilli powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "lb",
+        "description": "beef chuck, cubed"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "cornstarch"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "banana, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "fried onion slices"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "mango chutney"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "grated coconut"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "orange segments"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "cucumber, diced"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/curry-of-beef-zanzibar-456300",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/45/63/00/pic1Qsc87.jpg",
+    "title": "Zanzibar Beef Curry",
+    "servings": 8,
+    "cooking_time": 90,
+    "id": "tz-004",
+    "description": "A velvety yellow beef curry served with banana, mango chutney, coconut and other sambals.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "kg",
+        "description": "chicken"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "description": "ginger, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "garlic bulb, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "kg",
+        "description": "sweet potatoes, peeled and cubed"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large tomatoes, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "roasted peanuts, ground"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "fresh coriander, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "chilli powder (optional)"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "black pepper"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2009/11/kitowewo-cha-kuku-viazi-vitamu-na.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHVXMgxK2XqsoKYIbuNvdsSe3dTI5GEqLdsvmj9PDLxe7XWwkKXjTqjnj2TCEGpmN_gvON8g9fecmULAujQzUjFwE86-6Ut-aovZOcxmDBZ4I9vd4xMN6LY4oiGtJ3i7Maw0zXIdB8oHaQ/w1200-h630-p-k-no-nu/african-chicken-peanut-stew-.jpg",
+    "title": "Chicken, Sweet Potato and Peanut Stew",
+    "servings": 6,
+    "cooking_time": 75,
+    "id": "tz-005",
+    "description": "Village chicken stewed with sweet potatoes, tomatoes and ground roasted peanuts.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "lb",
+        "description": "cassava, peeled and cut into chunks"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "stewing beef"
+      },
+      {
+        "quantity": 1.75,
+        "unit": "lb",
+        "description": "broccoli florets"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "tomato, diced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "fresh ginger, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, diced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "coconut milk (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "olive oil"
+      },
+      {
+        "quantity": 5,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and black pepper, to taste"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2014/03/cassava-broccoli-and-sausages-meal.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMLteI84fNnG_kV1vzki3mwsqTwDFVdsJc-z3bnTiELfMEKL8XIk4kp5awhpvcgj7PjIWMKXKeqF7dCBFSGlSVjRk8nEUsdmRW6hPTVBaobHARdZwkWKINJpyU_x6HzGM9vZcSlOAUqf7s/w1200-h630-p-k-no-nu/20140418_130042+(1).jpg",
+    "title": "Cassava with Curried Beef (Mihogo na Nyama)",
+    "servings": 4,
+    "cooking_time": 75,
+    "id": "tz-006",
+    "description": "Chunks of cassava cooked with curried beef, tomato and vegetables, optionally in coconut milk.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "calf liver"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion, finely diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ginger-garlic paste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "medium tomatoes, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "tomato paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "turmeric powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cinnamon powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "beef stock cube"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "stock seasoning (Royco)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "bell peppers, cubed"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "cilantro, chopped"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "beef stock or water"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and black pepper, to taste"
+      }
+    ],
+    "source_url": "https://stellasmeza.blogspot.com/2014/01/dry-fry-beef-liver.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2pIBrsbte3h58QfB_PE8eVYTKWbGVjUCtYdqSfPrZyLTkJ7cVQpzPM1ZJdFqhgSykptdY4RAVba8CZRDQ1dWI8MPI_1-43hyphenhyphen4BdVQ4HtguNjX68wN9GEWUtg1E9SZXbfbEjBJnXgWejc/w1200-h630-p-k-no-nu/",
+    "title": "Dry-Fried Beef Liver (Maini)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-007",
+    "description": "Tender liver dry-fried with onions, tomatoes, bell peppers and curry spices.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 500,
+        "unit": "g",
+        "description": "minced beef"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "light soy sauce"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "dark soy sauce"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "description": "sweet soy sauce"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "description": "Worcestershire sauce"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground cumin"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "bay leaf"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "sugar"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "salt and black pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, finely chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cornstarch"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large potatoes, cubed"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "oil"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/dinas-coming-home-anas-beef-minchi/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/05/IMG_6641-scaled.jpeg",
+    "title": "Zanzibari Beef Minchi",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-008",
+    "description": "Savoury minced beef and potatoes in a glossy soy and cumin sauce, a Zanzibari home favourite.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "lb",
+        "description": "chicken, cut into pieces"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "hot chilli peppers, minced"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "fresh ginger, minced"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "garlic, chopped"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "oil or ghee"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "tomatoes, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper, to taste"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "cilantro, chopped"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/kuku-paka-kenyan-chicken-curry-456503",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/45/65/03/picPiQrAp.jpg",
+    "title": "Kuku Paka (Swahili Coconut Chicken Curry)",
+    "servings": 5,
+    "cooking_time": 75,
+    "id": "tz-009",
+    "description": "Swahili coast chicken simmered in a spiced tomato and coconut milk sauce with ginger, garlic and chilli.",
+    "category": "Main Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "whole black peppercorns"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "whole cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "cinnamon stick"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "cardamom pods"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "fresh ginger, grated"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "rice, uncooked"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "chicken, cut into bite-size pieces"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "potatoes, peeled and quartered"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2011/07/pilau-recipe-tanzanian.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEincSVnOQmlB-tXstRcLOcaFhuKOH4_Y9UMfO_yMCSw9qeOSA4VYvLbuVaM-eEnghRnaJg5yDXdMMe1PblY6MjTfyRyT4-sMvAWRnq5_2NJ1qqoMAywIaenXDCJ_cY9avbNHxl81gxdvB9D/w1200-h630-p-k-no-nu/Pilau.jpg",
+    "title": "Chicken Pilau (Pilau ya Kuku)",
+    "servings": 6,
+    "cooking_time": 60,
+    "id": "tz-010",
+    "description": "Tanzania's festive spiced rice cooked with chicken, potatoes, cumin, cardamom, cloves and cinnamon.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "kg",
+        "description": "beef, boiled"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "garlic cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground ginger"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "pilau masala"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion, chopped"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/05/swahili-beef-pilau-recipe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3AXo1J-GJ7rGUJdvGtBMNBDk_wSxABUG5MWLHhES7WKWLg6XvBl7aEPKa_rS7Wol9DuI7OIWCp1ht4knuDQcYhF9H2ricnBvxkMkgF8ItcR1SzArtuTMLumfIX_aotJni29EO9ddyeDMw/w1200-h630-p-k-no-nu/PicMonkey-Collage-22.jpg",
+    "title": "Swahili Beef Pilau",
+    "servings": 6,
+    "cooking_time": 60,
+    "id": "tz-011",
+    "description": "Beef pilau cooked in the Swahili coastal style with pilau masala, garlic and ginger.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "whole black peppercorns"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "whole cloves"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground cinnamon"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground cardamom"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "description": "pilau masala"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "chicken or vegetable broth, boiling"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "basmati rice"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "olive oil"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "",
+        "description": "onion, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "garlic, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh ginger, crushed"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://demandafrica.com/food/recipes/spicy-tanzanian-pilau-rice/",
+    "image_url": "https://demandafrica.com/wp-content/uploads/2017/10/Pilau_Tanzania.jpg",
+    "title": "Spicy Tanzanian Coconut Pilau",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-012",
+    "description": "Basmati pilau simmered in broth and coconut milk with whole spices and pilau masala.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "whole chicken, skinless, cut into 8 pieces"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "garlic and ginger paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "black peppercorns"
+      },
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "cardamom pods"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "cinnamon sticks"
+      },
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "cloves"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, finely chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "potatoes, peeled and quartered"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "basmati rice"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, for the salad"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "cucumber"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "tomatoes"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "mango"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "lemon"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green chilli"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/zanzibari-pilau-rice-lamb-chicken-prawn-or-vegetables/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/E1397567-6360-49A2-99ED-F99DF69D3B78.webp",
+    "title": "Zanzibari Chicken Pilau with Kachumbari",
+    "servings": 6,
+    "cooking_time": 75,
+    "id": "tz-013",
+    "description": "Zanzibari pilau with whole chicken, cumin and cardamom, served with a fresh mango kachumbari.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "lb",
+        "description": "lamb or mutton"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cumin seeds, for the broth"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "cinnamon sticks"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "whole cardamom"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "bay leaf"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "peppercorns"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh garlic and ginger"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large potatoes, peeled and halved (optional)"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "onion, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cumin seeds, for the rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "pilau masala"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ginger-garlic paste"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "long-grain rice, soaked"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "broth"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://aromaofzanzibar.blogspot.com/2015/03/lamb-pilau.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn4CZ9tDafcMfh6RkOzQ0mYA4h13x70PZLV127fG29VRd0r_0PqWU_qx0AUs_LGD8dyiDa4AsS7euVuh_g3jzz4GQprdXIeTvOOsZd_J2aFgP2JC-_mNmqYcC6J92hMxmXpFCNZTEWj6ou/w1200-h630-p-k-no-nu/Slide1.PNG",
+    "title": "Zanzibari Lamb Pilau",
+    "servings": 6,
+    "cooking_time": 120,
+    "id": "tz-014",
+    "description": "Lamb simmered into a spiced broth, then cooked with rice, potatoes and pilau masala the Zanzibari way.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "kg",
+        "description": "beef"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "kg",
+        "description": "basmati rice"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large onions"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "description": "garlic-ginger paste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large potatoes"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large tomatoes, blended"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "boiled eggs (optional)"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "turmeric powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "nutmeg"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "biryani masala"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "yogurt"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "cardamom pods"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "cloves"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "cinnamon sticks"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/11/beef-biryani-recipe-by-swahili-foods.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVh_v9RdCUnyieLODnOXia98YtIoxrJo4wQBT0R0id6EM1KUkuH3xf9tMYFGzwK2Zd_sH8pIKENMXVGEPcQxr0S1xsH60IvKORgzreOIHV0pzPgEiMlo24ljU5l9FxSUjnb7ymLUWyu49v/w1200-h630-p-k-no-nu/biryani+swahili+foods.jpg",
+    "title": "Swahili Beef Biryani",
+    "servings": 6,
+    "cooking_time": 90,
+    "id": "tz-015",
+    "description": "Coastal-style beef biryani with a spiced tomato and yogurt sauce served over fragrant basmati.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 2.75,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/rice-cooked-in-coconut-wali-wa-nazi-308897",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/30/88/97/pic7eBgxk.jpg",
+    "title": "Coconut Rice (Wali wa Nazi)",
+    "servings": 4,
+    "cooking_time": 35,
+    "id": "tz-016",
+    "description": "Simple coastal rice cooked in coconut milk, the classic partner for beans and curries.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "milk"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground turmeric"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground cinnamon"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground cloves"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground cardamom (optional)"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "butter"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/yellow-coconut-rice-tanzania-174953",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/17/49/53/picMfdTbe.jpg",
+    "title": "Yellow Coconut Rice",
+    "servings": 6,
+    "cooking_time": 30,
+    "id": "tz-017",
+    "description": "Tanzanian rice cooked in coconut milk and milk, tinted with turmeric and warmed with cinnamon and cloves.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "description": "basmati rice"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "vegetable stock"
+      },
+      {
+        "quantity": 4,
+        "unit": "oz",
+        "description": "sweetcorn"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "bell pepper, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large carrot, grated"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/tanzanian-vegetable-rice-310161",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/31/01/61/pic7CJ3zU.jpg",
+    "title": "Tanzanian Vegetable Rice",
+    "servings": 4,
+    "cooking_time": 60,
+    "id": "tz-018",
+    "description": "Basmati rice cooked in stock with sweetcorn, bell pepper and carrot.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "lb",
+        "description": "goat meat"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "basmati rice"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "large potatoes, peeled and halved"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "biryani masala"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garam masala"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "chilli powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground black pepper"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground turmeric"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "saffron"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "large red onions, finely chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh garlic, minced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "description": "fresh ginger, minced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "medium tomatoes, peeled and chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "plain yogurt"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "fresh mint, chopped"
+      },
+      {
+        "quantity": 2.5,
+        "unit": "tbsp",
+        "description": "ghee"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2019/05/fluffy-goat-biryani-using-rice-that.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQUDiPo65bk3bbdEB2IuTOdi570dnNJ0fxOeCKgDqy-PrAgGuddOkjxncZMBPnRXX7b9SZ_bU6pACkw7k8FpPIO182RyaWNgAGx5Ta_XjrqfqRlQPQEuEVXjUWZjFcYhH7d1z1v-i4inok/w1200-h630-p-k-no-nu/",
+    "title": "Goat Biryani (Biriani ya Mbuzi)",
+    "servings": 6,
+    "cooking_time": 120,
+    "id": "tz-019",
+    "description": "Yogurt-marinated goat layered with fluffy basmati, fried potatoes, saffron and mint.",
+    "category": "Rice Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "beef, cut into 1-inch pieces"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "green plantains, peeled and cut into 3-inch pieces"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium onion, chopped"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "tomatoes, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "carrot, sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "bunch",
+        "description": "cilantro, chopped"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper, to taste"
+      }
+    ],
+    "source_url": "https://www.internationalcuisine.com/ndizi-nyama/",
+    "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2021/10/O-gmbM_w.jpeg",
+    "title": "Green Bananas with Beef (Ndizi Nyama)",
+    "servings": 4,
+    "cooking_time": 55,
+    "id": "tz-020",
+    "description": "Green bananas and tender beef simmered with tomatoes, carrot and coconut milk.",
+    "category": "Banana Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "kg",
+        "description": "beef pieces with bones"
+      },
+      {
+        "quantity": 11,
+        "unit": "",
+        "description": "green cooking bananas (matoke)"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large potato (optional)"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large bell pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "carrot"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "margarine"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/09/mtori-recipe-banana-soup.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHUFWTQaPvlkdUJA1rgRZBMKx9UNYcyIXbiX0pOY5ZvYI651EFLxpVaoPxyKfaUzb35ZXXI37JqLsZLsw_eg26K_6oAykyNGV78pwc0EC7_MJ8bHF8Y1uQ25o5AWkPPl3CjAi3-qQTmbaU/w1200-h630-p-k-no-nu/1537339351603.jpg",
+    "title": "Mtori (Banana and Beef Soup)",
+    "servings": 6,
+    "cooking_time": 120,
+    "id": "tz-021",
+    "description": "A creamy Kilimanjaro-region soup of green bananas cooked with beef on the bone and mashed smooth.",
+    "category": "Banana Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "green bananas (matoke), sliced"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "soy sauce"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "bell peppers"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "tomatoes"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion, finely chopped"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "fresh ginger root"
+      },
+      {
+        "quantity": 6,
+        "unit": "",
+        "description": "garlic cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/10/tanzanian-matoke-recipe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5yzSpAYzhtXL0Z_mAqAVhAAXB-L4MEJSBGplLjJbb5yy2SnBIVT10r6U374PUW3xHX4aIaxnnwNq1yVPriK-PMuH4XT9NHsSqLpQwnLdDAbDQpWfj13tnE9tUmQHIkUoOlPPS1C8_ZWkt/w1200-h630-p-k-no-nu/Spicy-Matoke-Stew_36_1.1.195_326X580.jpeg",
+    "title": "Tanzanian Matoke in Coconut Curry",
+    "servings": 4,
+    "cooking_time": 45,
+    "id": "tz-022",
+    "description": "Sliced green bananas cooked in a curried tomato and coconut milk sauce.",
+    "category": "Banana Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "green bananas"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "beans"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "olive oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "bicarbonate of soda"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "pumpkin (optional)"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/12/kishumba-green-plantains-beans-tanzania.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixAzFprOxBrQyZFWu4JHGHb8g9ubPEl0xsNAFKwyTzVrylYzK-2Dfg218Pqg_lzxYvEasE2AWRZ3lUds6EhTP3VaEVHwDCXEVXeQr9U1Ae5rotJQ-Bdwa2hL28h8zSZaUvUsggx-LYeKCW/w1200-h630-p-k-no-nu/2013-11-18+18.56.43.jpg",
+    "title": "Kishumba (Green Bananas and Beans)",
+    "servings": 6,
+    "cooking_time": 90,
+    "id": "tz-023",
+    "description": "A traditional Tanzanian one-pot of green bananas and beans cooked until soft and lightly mashed.",
+    "category": "Banana Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fish fillets"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "spinach"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "tomatoes, diced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "celery"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "green plantains, peeled and sliced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "coconut milk"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2011/07/fish-plantains-and-spinach.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-_MD5LRv_P633RAdpIdDnQGTH8ClH9qwnoYgs9pzjRZ8UC9KuWwz746gBq4u1P6W1eIvkvelVHjVtjiC53yoO1RFFIsBU2U5B108a3ttSK6Tg7vxYiu53RDWVFBd3MCWHY8DJS_lU2OEF/w1200-h630-p-k-no-nu/Ndizi+za+samaki.jpg",
+    "title": "Fish with Plantains and Spinach (Samaki, Mchicha na Ndizi)",
+    "servings": 4,
+    "cooking_time": 45,
+    "id": "tz-024",
+    "description": "Fish, green plantains and spinach simmered with tomatoes and finished with coconut milk.",
+    "category": "Banana Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "ripe plantains"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "chilli pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ginger, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for deep frying"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/09/spicy-fried-plantains.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFF5h3AymcIyAEyDWayqbywJ3K7bCb-4pEAjB_esh06tt3gX-oxKsAjMC7mX_Htd1Gh3QAgIje9HUlJHmnCxLYifJEFuR8VnCIwqKcZsfB357AR5zgbqT1rco8DfhZ4KhE9ZmM3IKRB_PU/w1200-h630-p-k-no-nu/spicy+plantains.jpg",
+    "title": "Spicy Fried Plantains (Ndizi Kaanga)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-025",
+    "description": "Ripe plantain cubes tossed in onion, ginger and garlic paste and fried until golden.",
+    "category": "Banana Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "dried red kidney beans, boiled"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "sugar or honey"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "cardamom seeds"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "ground cinnamon"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "stock seasoning (Royco)"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "onions, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "tomato, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "tomato paste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/03/beans-in-coconut-milk-recipe-maharagwe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhABji5iYbDFAJqEfCg7DaDlYSYkOpoTCLTNILjW-UsYD7yyyTPjKIqiLXTS4hTHu90OHkLaQwIoDy6KY5Hy4mBb9AhsKwOluAHKnDpucIVNQclOmF6qVUFmMTRlNpVBQv9WQzWApYV1XDE/w1200-h630-p-k-no-nu/img_4510-1-1440x1080.jpg",
+    "title": "Beans in Coconut Milk (Maharage ya Nazi)",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-026",
+    "description": "Red beans simmered in a lightly spiced tomato and coconut milk sauce with cardamom and cinnamon.",
+    "category": "Beans & Stews"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "chilli flakes"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ground cumin"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ground coriander"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "turmeric"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh cilantro, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "desiccated coconut"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "black-eyed beans, cooked"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "potato, diced and parboiled"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon juice, to taste"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "vegetable or coconut oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/zanzibari-beans-with-coconut-and-cilantro-305011",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/30/50/11/pic7ij1tf.jpg",
+    "title": "Zanzibari Black-Eyed Beans with Coconut",
+    "servings": 4,
+    "cooking_time": 35,
+    "id": "tz-027",
+    "description": "Black-eyed beans and potato cooked with cumin, coriander, turmeric and desiccated coconut.",
+    "category": "Beans & Stews"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "dried pigeon peas, soaked"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "habanero chilli paste"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "description": "black pepper"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "turmeric"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red onion, diced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander, to garnish"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "vegetable oil, for frying"
+      }
+    ],
+    "source_url": "https://www.kaluhiskitchen.com/mbaazi-wa-nazi/",
+    "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2017/03/mbaazi-wa-nazi_pigoen-peas-in-coconut-milk_how-to-make-mbaazi-at-home_easy-kenyan-recipes_kenyan-food_kaluhiskitchen.com_-scaled.jpg",
+    "title": "Pigeon Peas in Coconut Milk (Mbaazi wa Nazi)",
+    "servings": 4,
+    "cooking_time": 60,
+    "id": "tz-028",
+    "description": "Pigeon peas simmered in coconut milk with toasted cumin, garlic, turmeric and chilli, a coastal breakfast with mandazi.",
+    "category": "Beans & Stews"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small octopus"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium white onion, thinly sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red chilli, chopped"
+      },
+      {
+        "quantity": 600,
+        "unit": "ml",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "large pineapple, cubed"
+      },
+      {
+        "quantity": 400,
+        "unit": "g",
+        "description": "tinned tomatoes"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "garlic paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ginger paste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "lemons"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "baharat spice"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "turmeric"
+      },
+      {
+        "quantity": 1,
+        "unit": "handful",
+        "description": "coriander, finely chopped"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/zanzibari-octopus-pineapple-coconut-curry-mchuzi-wa-pweza/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/IMG_5941copy-scaled.webp",
+    "title": "Zanzibari Octopus Curry (Mchuzi wa Pweza)",
+    "servings": 4,
+    "cooking_time": 90,
+    "id": "tz-029",
+    "description": "Tender octopus simmered in coconut milk with pineapple, tomato, turmeric and baharat.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "calamari, cleaned and cut into bite-size pieces"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "tomatoes, roughly chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small eggplant, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green mango, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small red onion, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "carrot, sliced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "green bell pepper, chopped"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "okra, sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "cinnamon stick"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "yellow curry powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "whole cloves"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "coconut milk"
+      }
+    ],
+    "source_url": "https://www.internationalcuisine.com/zanzibar-calamari-curry/",
+    "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2017/03/curry-e1489434213367.jpg",
+    "title": "Zanzibar Calamari Curry",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-030",
+    "description": "Calamari cooked with green mango, aubergine, okra and vegetables in a coconut curry sauce.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "coconut, freshly grated"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "white fish fillets"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "limes, juiced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "flour, for dusting"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://www.internationalcuisine.com/zanzibar-coconut-crusted-fish/",
+    "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2017/03/coconut-crusted-fish-e1489615245751.jpg",
+    "title": "Zanzibar Coconut-Crusted Fish",
+    "servings": 4,
+    "cooking_time": 38,
+    "id": "tz-031",
+    "description": "White fish fillets marinated in lime, coated in freshly grated coconut and pan-fried.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "onions, sliced"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "tomatoes, sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "tomato puree"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh coriander, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "fish fillets"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "water"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/curried-fish-mchuzi-wa-samaki-308948",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/30/89/48/piciM34TE.jpg",
+    "title": "Curried Fish (Mchuzi wa Samaki)",
+    "servings": 2,
+    "cooking_time": 30,
+    "id": "tz-032",
+    "description": "Fish fillets simmered in a quick curried tomato and onion sauce with lemon and coriander.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "hot red chilli, thinly sliced"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "spring onions"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "tomato puree"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ginger, grated"
+      },
+      {
+        "quantity": 500,
+        "unit": "g",
+        "description": "large prawns, peeled"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "lime, juiced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh coriander, chopped"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "creme fraiche"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garam masala"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/zanzibari-prawn-460378",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/46/03/78/picEmClGD.jpg",
+    "title": "Zanzibari Prawns",
+    "servings": 4,
+    "cooking_time": 25,
+    "id": "tz-033",
+    "description": "Large prawns in a creamy, gently spiced tomato sauce with chilli, ginger, lime and coriander.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "kg",
+        "description": "angel fish fillet, cut into chunks"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "olive oil, for frying"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "onions, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "eggplant, diced"
+      },
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "okra, diced"
+      },
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "tomatoes, diced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "small fresh chillies"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "paprika"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "chilli powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "lemon, juiced"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "orange juice"
+      }
+    ],
+    "source_url": "https://demandafrica.com/food/recipes/tanzanian-angel-fish-okra-sauce/",
+    "image_url": "https://demandafrica.com/wp-content/uploads/2017/08/Tanzanian-Fish.jpg",
+    "title": "Tanzanian Fish in Okra Sauce",
+    "servings": 6,
+    "cooking_time": 45,
+    "id": "tz-034",
+    "description": "Chunks of angel fish cooked in a tomato, aubergine and okra sauce with chilli and paprika.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fish such as tilapia or snapper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "turmeric"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "chilli powder (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2009/09/would-you-go-to-wedding-unievited.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHVqGcVEEmqW6erqBJHEf8DfVaorxK9wq6SZzS9bfuMhY1pL5fPicGnO-5ucxTT-osG9ggdo2izHWbaR_1IioQhhE8lCL_LsMMwSCWd31pO11yfrZH4C0i8JaRLkvn7C6JA2qRot7-1lH2/w1200-h630-p-k-no-nu/100_2230.jpg",
+    "title": "Pan-Fried Fish (Samaki wa Kukaanga)",
+    "servings": 4,
+    "cooking_time": 25,
+    "id": "tz-035",
+    "description": "Whole fish seasoned with lemon, turmeric and pepper and shallow-fried Tanzanian style.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "whole tilapia"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onions"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh ginger, ground"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh garlic, ground"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fish masala"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "vegetable oil"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/12/grilled-tilapia-fish-recipe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkMzN3HzKQeJ8_FjKu1uPWLpWuibrb5IlVqbu_vDgu_zIhEGKeIFobo0YbDJGYHaLjfu-pJQybg5RzxUoNRoDozAQgqjHyY8oC82dX2Fdy-GExcV1jlfcdHwxmCiWjrY4ZlWYUcZz2w34o/w1200-h630-p-k-no-nu/BeautyPlus_20171003095719_save.jpg",
+    "title": "Grilled Tilapia",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-036",
+    "description": "Whole tilapia marinated in ginger, garlic, fish masala and lemon, then grilled.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 8,
+        "unit": "",
+        "description": "fish fillets, such as tilapia"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ginger paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic paste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "lemons, juiced (or 2 tbsp tamarind paste)"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "cinnamon powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garam masala"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium onion, finely chopped"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "habanero pepper, seeded"
+      },
+      {
+        "quantity": 13.5,
+        "unit": "fl oz",
+        "description": "coconut milk"
+      }
+    ],
+    "source_url": "https://stellasmeza.blogspot.com/2012/11/fish-in-coconut-sauce-samaki-wa-kupaka.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaZK_bafoOjy4wqDAeaTb17EFCYEPI6DgxjVCp0b85IBZW_qnthGo2UyN-6r1bqv4Tt4dWXhOqfiYjsXl5x9Q0vX1ty4boZdFddze20OLXANYl7QfZOdL2Ez-bWYYjWwHxT8yVDC1NYMWD/w1200-h630-p-k-no-nu/samaki+wa+kupaka.JPG",
+    "title": "Samaki wa Kupaka (Grilled Fish in Coconut Sauce)",
+    "servings": 4,
+    "cooking_time": 50,
+    "id": "tz-037",
+    "description": "Marinated grilled fish fillets bathed in a tangy, chilli-spiked coconut sauce, a Swahili coast signature.",
+    "category": "Seafood"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "lb",
+        "description": "spinach"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "oz",
+        "description": "peanut butter"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "tomato"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "ghee or butter"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/mchicha-tanzanian-spinach-peanut-curry-310341",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/31/03/41/picpcbhO9.jpg",
+    "title": "Mchicha with Peanut Sauce",
+    "servings": 4,
+    "cooking_time": 45,
+    "id": "tz-038",
+    "description": "Traditional Tanzanian greens cooked with tomato, onion, curry, coconut milk and peanut butter.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 600,
+        "unit": "g",
+        "description": "spinach"
+      },
+      {
+        "quantity": 400,
+        "unit": "ml",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red chilli, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, thinly sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "turmeric"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "neutral oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/zanzibari-creamed-coconut-spinach-mchicha/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/02/Recipe-Slide-Images-3-1.webp",
+    "title": "Zanzibari Creamed Coconut Spinach (Mchicha wa Nazi)",
+    "servings": 4,
+    "cooking_time": 25,
+    "id": "tz-039",
+    "description": "Spinach wilted into coconut milk with onion, red chilli and turmeric.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "bell pepper, sliced"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "carrots, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red onion, sliced"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "bunch",
+        "description": "spinach, thinly sliced"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "natural peanut butter"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "crushed peanuts, to garnish"
+      }
+    ],
+    "source_url": "https://globaltableadventure.com/recipe/recipe-greens-with-veggies-peanuts-kisamvu/",
+    "image_url": "https://globaltableadventure.com/wp-content/uploads/2013/06/tanzania.food_.recipe.img_0814.jpg",
+    "title": "Greens with Peanuts and Vegetables (Kisamvu-Style)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-040",
+    "description": "Thinly sliced greens cooked with carrot, pepper and onion in a peanut and coconut sauce.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "kg",
+        "description": "young cassava leaves, pounded"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "garlic clove"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "tomato"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onions, finely chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "peanut butter"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/10/kisamvu-cassava-leaves-recipe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGQltVZOYZvbJGKClUIKsqhdv2NUSgRPpo2NrDQlAo3AUuuH6vGGI4Y1eIIQ8295UiqizJsRx_TQtkkSOLPnaW_FQj-k-gyYYmtOQgm6IMVim8gCNAioRxzwosLo0wHBt3h8cOGKlvN5OG/w1200-h630-p-k-no-nu/BeautyPlus_20171009095449_save.jpg",
+    "title": "Cassava Leaves (Kisamvu)",
+    "servings": 4,
+    "cooking_time": 90,
+    "id": "tz-041",
+    "description": "Pounded young cassava leaves slow-cooked with tomato, onion, peanut butter and coconut milk.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "lb",
+        "description": "cabbage, cut into wedges"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "red onion"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "crushed red pepper flakes"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "beef or vegetable stock"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/braised-cabbage-tanzanian-173262",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/17/32/62/picL1hS8q.jpg",
+    "title": "Tanzanian Braised Cabbage",
+    "servings": 8,
+    "cooking_time": 20,
+    "id": "tz-042",
+    "description": "Cabbage wedges braised with red onion and chilli flakes in a little stock.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "baby spinach"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "okra"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "flavour enhancer (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "olive or vegetable oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2011/07/ugali-mlenda-and-dagaa-dry-salted.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGCByJM-P7-9o0f3IQQ256fX692TJ7pcw_elw6O0acUvDLCSLL_7HqDLqLAgsOGx8wudBxgs-gMLVpMUFGVD22O36fb8Uc9Wf8voDCZdi5Ja-DMqgNRRfsTmr1pWzHALGXbVlluzUdaEx-/w1200-h630-p-k-no-nu/BB_Photo.png",
+    "title": "Mlenda (Okra and Greens)",
+    "servings": 4,
+    "cooking_time": 25,
+    "id": "tz-043",
+    "description": "A slippery okra and greens relish traditionally eaten with ugali and dagaa.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "baby aubergines"
+      },
+      {
+        "quantity": 400,
+        "unit": "ml",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 100,
+        "unit": "ml",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large onion, thinly sliced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "fresh chillies, finely chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "ground turmeric"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "garam masala"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "lemons"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/coconut-turmeric-baby-aubergine-stew/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/DSC_0012-scaled.webp",
+    "title": "Coconut and Turmeric Aubergine Stew (Biringanya)",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-044",
+    "description": "Baby aubergines simmered in a turmeric and garam masala coconut sauce with lemon.",
+    "category": "Vegetables"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small cabbage, finely shredded"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "medium tomatoes"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small red onion"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green bell pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small lemon"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "parsley"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper, to taste"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2019/05/tanzanian-kachumbari.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9LND6jKEDU7bGYYE0XVTQG8MT1hGyYmBJPCcqUWB7X89oHkTPkWnYkt-3NXQTC5xy2J4yi4UfCxHh9lPD0KbSqJTRNv9zsW_0VQBPZusgDZW_kBnKah-HRZx_-sA114B8vg4TjRDf4TBD/w1200-h630-p-k-no-nu/",
+    "title": "Tanzanian Cabbage Kachumbari",
+    "servings": 6,
+    "cooking_time": 15,
+    "id": "tz-045",
+    "description": "A crunchy Tanzanian kachumbari of shredded cabbage, tomato, onion and green pepper with lemon.",
+    "category": "Salad"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "potatoes, boiled"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "firm mangoes"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "orange juice"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "fresh lemon juice"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "red bell pepper"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "cucumbers"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "green bell pepper"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "ginger, minced"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "mint, chopped"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and black pepper, to taste"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/10/mango-potato-cucumber-salad-salad-ya.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpNoN6QDnYQQmQaThC-XFe50W0a3KAZKc8T9etekKFJoHG9QMlRj1jDGXsNqUt6Ota503n9WHqnUaJRfqpnnEYl-5ow8SfgfXve-ti4g-jiv1oBgfCazWF6kMWcd7roJ28S2eX43XqUHBA/w1200-h630-p-k-no-nu/mangopotato.jpg",
+    "title": "Mango, Potato and Cucumber Salad",
+    "servings": 6,
+    "cooking_time": 30,
+    "id": "tz-046",
+    "description": "A fresh Tanzanian salad of boiled potato, firm mango and cucumber with ginger, mint and citrus.",
+    "category": "Salad"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "peanut oil"
+      },
+      {
+        "quantity": 3,
+        "unit": "lb",
+        "description": "chicken, cut into pieces"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "dried red chilli"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "black pepper"
+      },
+      {
+        "quantity": 8,
+        "unit": "cups",
+        "description": "chicken stock"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large tomato, peeled and chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "unsweetened coconut, grated"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "ripe bananas"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/tanzanian-curried-chicken-banana-soup-21139",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/21/13/9/pic8NfAwY.jpg",
+    "title": "Tanzanian Curried Chicken and Banana Soup",
+    "servings": 4,
+    "cooking_time": 70,
+    "id": "tz-047",
+    "description": "A spicy-sweet curried chicken soup with tomato, grated coconut and banana.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fish, such as tilapia or snapper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "tomatoes, diced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water or vegetable broth"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "olive oil"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2011/09/fish-soup.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW1z5zSheNanq6reA_P4PDBG49UBxBWT9VmY3xke85U6Ip0UFHuSIXteadlhtiA0mwiJEuOtEWcO7Mfbu-p1BuUEpjZLcvYdBqRqnExDzHzQ6BQT3uKHoVIry0dMkNYFsOGRpsFMyAFv-K/w1200-h630-p-k-no-nu/Picture+004.jpg",
+    "title": "Fish Soup (Supu ya Samaki)",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-048",
+    "description": "A light, lemony fish soup with tomatoes, onion and garlic.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, chopped"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "garlic cloves, crushed"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green bell pepper, diced"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "carrots, diced"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "tomatoes, diced"
+      },
+      {
+        "quantity": 3,
+        "unit": "lb",
+        "description": "yukon gold potatoes, cubed"
+      },
+      {
+        "quantity": 15,
+        "unit": "oz",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 4,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "avocado, sliced"
+      }
+    ],
+    "source_url": "https://globaltableadventure.com/recipe/tanzanias-fairytale-coconut-potato-soup-supu-viazi/",
+    "image_url": "https://globaltableadventure.com/wp-content/uploads/2016/01/tanzanian-coconut-potato-soup.jpg",
+    "title": "Coconut Potato Soup (Supu ya Viazi)",
+    "servings": 6,
+    "cooking_time": 50,
+    "id": "tz-049",
+    "description": "A thick, comforting soup of potatoes, carrots, tomato and pepper simmered in coconut milk.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "free-range (village) chicken"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onions"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "celery"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2022/02/chicken-fowl-soup-sopu-ya-kuku-wa.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguLXP2El83X7nl6gc9LbZndq3R_iX3ppROQyFb6K6l-kndlgscvF4FXnZgO-zAvrmJysSxS4DuTgD6tS4dnlLxcJaiy7eSyMmeCykRp92PoM82Jc5ZHi1nlHiii9JM8kym6WBKP7z1daMy/w1200-h630-p-k-no-nu/IMG_00207.jpg",
+    "title": "Village Chicken Soup (Supu ya Kuku wa Kienyeji)",
+    "servings": 4,
+    "cooking_time": 120,
+    "id": "tz-050",
+    "description": "Free-range village chicken slowly boiled with onion, celery, coriander, lemon and pepper.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "cow feet"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "tripe"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lime"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2019/11/soup-ya-makongoro-cow-feet-soup.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUSObqxbaQm53NNkQUjQkDOnGg0T8XDr78KCqH_7O8XTCzMVRGwJStorcB3kJlT18XYtr5bx7rSFgPS0vD2iY6qUD8bipz9AirxSV3bH16bT33wZrLrOnqJWdbLvgZ7UCoX_4H340Drpg5/w1200-h630-p-k-no-nu/1572678737809044-0.png",
+    "title": "Cow Feet Soup (Supu ya Makongoro)",
+    "servings": 6,
+    "cooking_time": 240,
+    "id": "tz-051",
+    "description": "A rich, slow-cooked soup of cow feet and tripe, a popular Tanzanian breakfast soup.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "goat head, cleaned"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lemon"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "chilli pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ginger"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "celery"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onion"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2022/02/goat-head-pepper-soup-supu-ya-kichwa.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg37mIFpr-NQl-gNDUFY-5oDVRL7cj0Ny-xGHxGeqbIY7y3HdI9dxBQlqA10O-ImhakK6JNibfH1izVLKqlYMlpmlOytr7NU8v-zpqATy36MQoNm3oAHE9evbTFY8R_mU2Srkg_rrhaYYIA/w1200-h630-p-k-no-nu/1574749465630364-0.png",
+    "title": "Goat Head Pepper Soup (Supu ya Kichwa cha Mbuzi)",
+    "servings": 6,
+    "cooking_time": 130,
+    "id": "tz-052",
+    "description": "A peppery goat soup simmered with ginger, chilli, celery and lemon, finished with coriander.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "spinach"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "butter"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "potatoes"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "stock seasoning (mchuzi mix)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "milk"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sour cream"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper (optional)"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2009/10/spinach-soup-supu-ya-mchicha.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcxbquErs8DF0yOw7UHJ2XRLAjVOpmZkIDDD6JIMzuv9gOAPjIhnmSbdO0lZU70dExf7mOceEPK2_CIBtkE0r2N4tVfDguSlHFV-T8pbdKzGHCVZRSZjKi8I8_xiBdrPkH-veqI0_lRHm2/w1200-h630-p-k-no-nu/Spinach+Soup.jpg",
+    "title": "Creamed Spinach Soup (Supu ya Mchicha)",
+    "servings": 4,
+    "cooking_time": 35,
+    "id": "tz-053",
+    "description": "A smooth, creamy soup of spinach and potatoes enriched with milk and butter.",
+    "category": "Soup"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "green plantains, peeled and diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "dried beans"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "bicarbonate of soda"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "stewing beef (optional)"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "olive oil"
+      },
+      {
+        "quantity": 4,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2014/12/kiumbo-kiburu-plantain-beans-soup.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSIHAM1AurFuaAtK8QEfW3Avtp5yDKjrubJXZxuxX7cex_GxAHKvt8MjPvMSElPxFFpp77RwrcYPZ1VTEGyGNd0qPsVlzDEpBrxC5oRtTUM3PCmPjdWE8RtptwFD0Ltdo-BSI5WWW7pX2U/w1200-h630-p-k-no-nu/100_4492.JPG",
+    "title": "Kiburu (Plantain and Bean Soup)",
+    "servings": 4,
+    "cooking_time": 120,
+    "id": "tz-054",
+    "description": "A Kilimanjaro favourite of green plantains and beans simmered into a thick, hearty soup.",
+    "category": "Traditional Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "green plantains"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "cultured (fermented) milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "bicarbonate of soda (magadi)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water, to cook"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "salted butter"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/09/kitawa-plantain-and-custard-milk.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyH0PzR0WEhgVh-4sq04Qs5rsQd8sefjMr5Zjzh2sH9UZDXl62K0CBgiTLLp-oNsGgFQ1r42kOqgzB0hZgP5oJVbl4newN8ndQg0AVFndgYY6pIl0ch0XNolMXfXCgUq6PxmQr9zAp7aTC/w1200-h630-p-k-no-nu/2013-07-19+15.50.56.jpg",
+    "title": "Kitawa (Plantains in Fermented Milk)",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-055",
+    "description": "Green plantains boiled soft and mashed with cultured milk and butter, a traditional northern Tanzanian dish.",
+    "category": "Traditional Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "description": "beans, soaked overnight"
+      },
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "description": "dried white maize, soaked overnight"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "butter or vegetable oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "coconut milk (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and pepper, to taste"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/10/makande.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5G9BSt9rEcJ3eHHOT8WeVwEU-iUTbvvGB2ZnvmXR-lozpPNLNhrxkn0BARnN3158PIAgmVr_mjqUArjjjrFibIfyQ2R6AX1XFtzKy-a9rsc7d6DfC8wR-SrT9G5L_HcAmfxn69ivx6vyq/w1200-h630-p-k-no-nu/makande.jpg",
+    "title": "Makande (Maize and Beans)",
+    "servings": 6,
+    "cooking_time": 150,
+    "id": "tz-056",
+    "description": "A hearty Tanzanian staple of dried maize and beans slowly boiled together, optionally with coconut milk.",
+    "category": "Traditional Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "maize, cassava or banana flour"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/11/ugali-recipe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigv_74-y1ML-324qOhRK3xK85LsEMzAOj60Q0ksBN3KwVUQyY4JVSmLKRceHkP74aXAnCT1v0CnP263ilHl3n0OqWT8viZeep0WeGuHRZBh_wBlYl7JIYa-yiYu5eNJAMCXVH2BOUxHHSf/w1200-h630-p-k-no-nu/ugalimchicha.jpg",
+    "title": "Ugali (Sima)",
+    "servings": 4,
+    "cooking_time": 20,
+    "id": "tz-057",
+    "description": "Tanzania's national staple: a firm porridge of maize, cassava or banana flour stirred with water.",
+    "category": "Traditional Dish"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "beef seasoning powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "coriander powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "chilli powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "Arabic spice mix"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground black pepper"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "description": "vinegar"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green bell pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red bell pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "kg",
+        "description": "beef, cubed"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "tomatoes"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "dark soy sauce"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "tamarind pod"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "garlic cloves"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "green chillies"
+      }
+    ],
+    "source_url": "https://www.chefspencil.com/tanzanian-mshikaki/",
+    "image_url": "https://www.chefspencil.com/wp-content/uploads/Mshikaki-e1672954725510.jpg",
+    "title": "Beef Mishkaki",
+    "servings": 4,
+    "cooking_time": 60,
+    "id": "tz-058",
+    "description": "Tanzania's beloved street skewers of marinated beef grilled over charcoal, served with a tamarind chilli sauce.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "lb",
+        "description": "boneless chicken breast, cubed"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "plain full-fat yogurt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ginger paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "red chilli puree"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "coriander powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground cinnamon"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cayenne pepper"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red bell pepper, cubed"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green bell pepper, cubed"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "onion, cubed"
+      }
+    ],
+    "source_url": "https://stellasmeza.blogspot.com/2012/11/chicken-kabobs-mishkaki-ya-kuku.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib1Em6bHJye_9h_E_op8FW5GVLA5rq5EM1aG1O8Er5L6TpA59TKLjNw8-bYXZ6yYolWnHidF5aLgn5zsrnNWt7jJdwAUeXy58cISX4J1npNQbPpaubZx17TD2rSerDQjlI2A0-eDr2Vscu/w1200-h630-p-k-no-nu/prep+chick+1.JPG",
+    "title": "Chicken Mishkaki (Mishkaki ya Kuku)",
+    "servings": 4,
+    "cooking_time": 40,
+    "id": "tz-059",
+    "description": "Chicken cubes marinated in yogurt, ginger, garlic and warm spices, then skewered and grilled.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "chicken breast, minced"
+      },
+      {
+        "quantity": 7,
+        "unit": "tbsp",
+        "description": "breadcrumbs"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "curry powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "egg"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "red chilli flakes (optional)"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large potato, boiled and mashed"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "garlic-ginger paste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/07/kababu-chicken-kababu.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOPrtj__Q9PTUFM7gue1BuDp69lpuFHg7P7o2ZpagXroE0xTZI8Iw0rdZbg6mrT8XTGEhl8kTLvauPK8vtm-1Kp393zywfPfCEbu7lBPwvT0UScivmgursjbSi2FnVzHpKfEgwSlaZYVh9/w1200-h630-p-k-no-nu/2013-06-24+21.05.16.jpg",
+    "title": "Chicken Kababu",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-060",
+    "description": "Spiced minced chicken and potato kebabs shaped and fried, a favourite tea-time snack.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "minced meat"
+      },
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "potatoes"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "coriander powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "hot chillies"
+      },
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "description": "ginger"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "garam masala"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "lemon or lime juice"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic"
+      },
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2022/02/jinsi-ya-kutengeneza-kachori.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx4xt8T9I9NBjTGA3o_7MNQkyQJpnYA6qkeeZnoQK-MzXLkNIDDKNezg_Q3kVVI6LH7DVCW2xTW4d0HTIl0XG1s8PuE9B_Td9lcT79X_prKku46xOZDjoqGPq0BrZGMozOnhRZhMj_j0kh/w1200-h630-p-k-no-nu/1645392380446043-0.png",
+    "title": "Kachori (Meat-Stuffed Potato Balls)",
+    "servings": 6,
+    "cooking_time": 50,
+    "id": "tz-061",
+    "description": "Spiced mashed potato balls filled with minced meat and fried golden.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 500,
+        "unit": "g",
+        "description": "fresh or tinned tuna"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium potato"
+      },
+      {
+        "quantity": 1,
+        "unit": "bunch",
+        "description": "coriander"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "lemons"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "tomato paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cumin"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "black pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cinnamon"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cardamom"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "red onions"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "turmeric powder"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "green chillies"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "garlic paste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "breadcrumbs, for coating"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "vegetable oil, for frying"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/zanzibari-fish-kebabs/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/IMG_2686.webp",
+    "title": "Zanzibari Fish Kebabs",
+    "servings": 6,
+    "cooking_time": 45,
+    "id": "tz-062",
+    "description": "Tuna and potato kebabs spiced with cumin, cinnamon, cardamom and chilli, crumbed and fried.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "medium potatoes, cut into chips"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for deep-frying"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "",
+        "description": "large onion, finely diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "bell pepper, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green or red chilli, diced (optional)"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small tomato, diced"
+      },
+      {
+        "quantity": 6,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cilantro, chopped"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt and black pepper, to taste"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "tomato, finely chopped, for kachumbari"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "medium onion, finely chopped, for kachumbari"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "lemon juice"
+      }
+    ],
+    "source_url": "https://www.eggs.ca/recipes/chipsi-mayai",
+    "image_url": "https://eggs.ca/wp-content/uploads/2024/06/EFC-chipsi-mayai-hero-1280x720-1.jpg",
+    "title": "Chipsi Mayai (Chips Omelette)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-063",
+    "description": "Tanzania's iconic street food: crispy chips set in an omelette with peppers, served with kachumbari.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "oil, for the pastry"
+      },
+      {
+        "quantity": 0.125,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "red chilli powder"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "medium potatoes, boiled and coarsely mashed"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "green peas, cooked"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "garam masala"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "pepper"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "oil, for the filling"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green chilli, finely chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "lemon juice"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for deep frying"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2009/10/vegitarian-samosa-sambusa.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs4f77MFwSLkZbXW16orLh-NTl6gmQA6_uMO9eNaAhcjMCSaUTzSVQwOCdulOwu0CqAodZqKRhhtC31u7e1UmCi452ytUprTbslNb1xMqdv-TZ-hX1bzgWYqy8wE4klWfRGGEim1DeEDSQ/w1200-h630-p-k-no-nu/veggie+samosa.jpg",
+    "title": "Vegetable Sambusa",
+    "servings": 8,
+    "cooking_time": 60,
+    "id": "tz-064",
+    "description": "Homemade pastry triangles stuffed with spiced potato and green peas and deep-fried.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "chickpea (gram) flour"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "turmeric powder"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "onions, finely chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic paste"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ginger paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "chillies"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "scallion, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh parsley"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cumin"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "bicarbonate of soda"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for deep frying"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2009/10/klum-samuels-wamkaribisha-baby-lou.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA4r-NaLKvDvv7OnauNNcbaIoCmv77D4jKm1M1BVjIBlrhYcvLgddf7rpFcQZtYeUI6GBse8n8O3KcNPVNuXak9sbHUHFuKYk9Upzg96_XqcECEorFj_qfgXhozj2vNSQbpaDqqBye0NaQ/w1200-h630-p-k-no-nu/100_8300.jpg",
+    "title": "Bagia (Chickpea Flour Fritters)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-065",
+    "description": "Crispy Tanzanian bhajia fritters of spiced gram flour with onion, scallion and herbs.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "potatoes, thinly sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "gram flour (besan)"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "chilli powder"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "baking soda"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "fresh coriander, chopped"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/09/easy-spicy-potato-snack.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4uDOYgf8RWKQbx-P3xSnNoSOBcmpr219TwoNZtQakSsUd7yb44JjBIdTvRCVRhlZOyj4YuxmdFvgAGA_YdwGIx2A8WNFSqG4H5EujEabzz8JRwQrf0KJZp84sP8KMobXA3fQE6ZxA_8rk/w1200-h630-p-k-no-nu/BeautyPlus_20170904210005_save.jpg",
+    "title": "Potato Bhajia (Bagia za Viazi)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-066",
+    "description": "Thin potato slices dipped in a chilli and coriander gram-flour batter and fried until crisp.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "corn on the cob"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2014/02/mahindi-ya-kuchoma-grill-corn-tanzanian.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9kpLqizrZ_C1cxn3-5OcHo63Wsrw_Q5AlHdH1-y3UMDvBX1BDlwmWsvMTK1AsSyJEy1bii98UHaHTqpneWpXRVgK4jSIY6ktZlQoEo1LmbNHj0EMutwsyqCNadpmeiCka68Qf7P7Da6me/w1200-h630-p-k-no-nu/maindi+ya+kuchoma.jpg",
+    "title": "Roasted Corn (Mahindi ya Kuchoma)",
+    "servings": 4,
+    "cooking_time": 20,
+    "id": "tz-067",
+    "description": "Corn on the cob roasted over charcoal the way it is sold on Tanzanian street corners.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "flour"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "sugar"
+      },
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "description": "margarine, cubed and frozen"
+      },
+      {
+        "quantity": 6,
+        "unit": "tbsp",
+        "description": "very cold water"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "small potato"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "olive oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "madras curry powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "red onion, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "carrot, diced"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "description": "ground beef"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "thyme, chopped"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "cayenne pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "beef stock"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "egg, for egg wash"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/11/tanzanian-meat-pie.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwv8xht2DRadmUQUdMaM2WqPqeZb3l-u8-Pdb5I9Ai9qoyIhxIJ3Qj4hWH869g0Cipjt_kFOlljzR_SkdY-1UBtOBCjWSEUmn8Tn3N5_68GKghqwHk3Gzc2aDyFHekSWkY_Ti9u0SmaduW/w1200-h630-p-k-no-nu/meat+pie.jpg",
+    "title": "Tanzanian Meat Pie",
+    "servings": 8,
+    "cooking_time": 75,
+    "id": "tz-068",
+    "description": "Flaky pastry filled with curried minced beef, potato and carrot, a bakery and tea-time staple.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "ground beef"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "black pepper"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "garlic cloves, minced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "fresh ginger, finely chopped"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "small serrano chillies, diced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "medium red onion, finely chopped"
+      },
+      {
+        "quantity": 6,
+        "unit": "",
+        "description": "large eggs"
+      }
+    ],
+    "source_url": "https://www.cuisinenoir.com/zanzibar-pizza/",
+    "image_url": "https://www.cuisinenoir.com/wp-content/uploads/2019/04/Flavors-of-Africa-Zanzibar-Pizza.jpg",
+    "title": "Zanzibar Pizza",
+    "servings": 6,
+    "cooking_time": 45,
+    "id": "tz-069",
+    "description": "A Stone Town night-market favourite: thin dough wrapped around spiced minced beef, onion and egg, then griddled.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "green plantains, peeled and thinly sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "l",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "chilli powder"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/06/east-african-homemade-banana-chips.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVz6vuh5IivgbqQ625vSIqrFUOuYk_OxnmgQKy-t5w1Ssdj5WzyN8wHrkRModjSJr1EU8q0zb0rJencuCWk_OtGZaXkOmdhjZFa4vgXLvp2paYeCH81CyP5VpJohUiVEnIV2UJWBJEvssa/w1200-h630-p-k-no-nu/1530086119711.jpg",
+    "title": "Banana Chips (Chipsi za Ndizi)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-070",
+    "description": "Thin rounds of green plantain deep-fried and dusted with chilli and salt.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 800,
+        "unit": "g",
+        "description": "potatoes, cut into cubes"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "gram flour"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground turmeric"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red onion, finely sliced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "limes, juiced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "lemon, juiced"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sea salt flakes"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "coriander, roasted peanuts, green chilli and lime wedges, to garnish"
+      }
+    ],
+    "source_url": "https://www.splendidtable.org/story/2024/02/07/urojo-zanzibar-potato-soup",
+    "image_url": "https://img.apmcdn.org/74fb523fe98215f712f4ae552d618961db000441/widescreen/7019b4-20240129-wnk-veg-potato-soup-from-more-daily-veg-book-1000.jpg",
+    "title": "Urojo (Zanzibar Potato Soup)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-071",
+    "description": "A tangy, turmeric-yellow potato broth thickened with gram flour and sharpened with lime and lemon, topped as you like.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "all-purpose flour, sifted"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic powder"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "vegetable oil, for the dough"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "water, for the dough"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "vegetable oil, for layering"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "flour and water paste, for sealing"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "lean ground beef"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "red onion, finely diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ginger paste"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "habanero pepper, roasted and diced"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "turmeric"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "cardamom"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "coriander powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground cinnamon"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "dhana jeera powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "bunch",
+        "description": "cilantro, finely chopped"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "frozen peas"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "vegetable oil, for frying"
+      }
+    ],
+    "source_url": "https://stellasmeza.blogspot.com/2013/01/beef-samosas.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnPToOzk_vV_u6SVyQm1kWqaYaLxXv6ySgCH7zcJ1cMLPW9tFFAyDsvq9SBoRTcJCm_DqoxXBgeXQo9otpRb99YWNHNdONVLkmrgfXPlvfROL8wOW0Kra1zOMu0NnaTlicF-zLkhCM5V0f/w1200-h630-p-k-no-nu/samosa+1.JPG",
+    "title": "Beef Sambusa (Sambusa za Nyama)",
+    "servings": 8,
+    "cooking_time": 90,
+    "id": "tz-072",
+    "description": "Crisp homemade pastry triangles filled with spiced minced beef and deep-fried.",
+    "category": "Street Food & Snacks"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "coconut milk, slightly warmed"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "coconut flakes (optional)"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground cardamom or nutmeg"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "almond extract"
+      }
+    ],
+    "source_url": "https://www.africanbites.com/vitumbarice-pancakes/",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2015/04/IMG_21951.jpg",
+    "title": "Vitumbua (Coconut Rice Pancakes)",
+    "servings": 12,
+    "cooking_time": 75,
+    "id": "tz-073",
+    "description": "Fluffy, lightly sweet rice and coconut pancakes cooked in a special pan, a Tanzanian breakfast favourite.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "kg",
+        "description": "plain flour"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "sugar"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "ground cardamom"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "warm coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "l",
+        "description": "cooking oil, for frying"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "warm water, for kneading"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/08/mandazi-mahamri-fried-bread.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQY6YWFKn71j7gRGiDAKG_Fd6QEHLo3EyKahDR9e4HjI3DSgqVVc0cvot2ajBRDlO4jtm6qUVnF2R30U65WhhdqKtDMX_LEbAI3ymxxRvzyDjcIgrJrw_O52Sfmhsbc3uX4sJG_0QS9Q-f/w1200-h630-p-k-no-nu/BeautyPlus_20170830163739_save_fashenista.jpg",
+    "title": "Mandazi (Coconut Cardamom Doughnuts)",
+    "servings": 8,
+    "cooking_time": 90,
+    "id": "tz-074",
+    "description": "Soft, slightly sweet fried dough triangles flavoured with coconut milk and cardamom.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "milk"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "margarine, melted"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "white flour"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2013/11/tanzanian-buns-mahamri-mandazi-style-2.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6FlGPrEtf4k_DQ9yHPGs8D9oWiJmN2oCVSVeqKjs-B4FTO_ESY1Y2fpIw7WsIPEESOhNp6aCVJnhKpCUBkzWRaMw_aMpQ3rRiVHMuIhYnhqo5N9ZxCOfXrTuMmc_ZtWlKmLINXrsOg1wI/w1200-h630-p-k-no-nu/mandazi+ya+baking+powder.jpg",
+    "title": "Mahamri (Yeast Buns)",
+    "servings": 8,
+    "cooking_time": 90,
+    "id": "tz-075",
+    "description": "Yeast-risen fried buns, a slightly richer cousin of mandazi, enjoyed with tea.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "large eggs"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "ghee, melted"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "sugar"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 1.25,
+        "unit": "cups",
+        "description": "milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh lemon juice"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "description": "vegetable oil, for cooking"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2019/07/classic-sweet-tanzanian-crepes.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO1lm5WXKAZKrFci5_N6JWweFJAx-4vAWlt5fq272sTOucvKAHBeVnEG7gPXg3crfUf9wERnVcp5QYsQBsdfcmLcUwj4rAFiRGUEcLgcqw4ia29mbWifUQlruhla2HVAhRPAEmxH7ObL6P/w1200-h630-p-k-no-nu/20190121_102623%257E2.jpg",
+    "title": "Sweet Tanzanian Crepes (Chapati za Maji)",
+    "servings": 4,
+    "cooking_time": 45,
+    "id": "tz-076",
+    "description": "Thin, lightly sweetened pancakes cooked in ghee and oil, a quick Tanzanian breakfast.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 370,
+        "unit": "g",
+        "description": "white basmati rice"
+      },
+      {
+        "quantity": 90,
+        "unit": "g",
+        "description": "caster sugar"
+      },
+      {
+        "quantity": 8,
+        "unit": "",
+        "description": "cardamom pods"
+      },
+      {
+        "quantity": 400,
+        "unit": "ml",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 7,
+        "unit": "g",
+        "description": "dried active yeast"
+      },
+      {
+        "quantity": 300,
+        "unit": "ml",
+        "description": "coconut milk, for the sauce"
+      },
+      {
+        "quantity": 30,
+        "unit": "g",
+        "description": "caster sugar, for the sauce"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "vanilla extract"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "corn flour"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/vibibi-swahili-rice-and-coconut-cardamom-pancakes-3/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/02/Recipe-Slide-Images-2-1.webp",
+    "title": "Vibibi (Rice and Coconut Pancakes)",
+    "servings": 6,
+    "cooking_time": 60,
+    "id": "tz-077",
+    "description": "Soft Swahili rice and coconut pancakes scented with cardamom and served with a sweet coconut sauce.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "whole wheat flour"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "baking soda"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "egg"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium onion, diced"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "black pepper"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "coriander powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "fresh ginger paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "garlic powder"
+      },
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "description": "ground beef"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander leaves"
+      }
+    ],
+    "source_url": "https://aromaofzanzibar.blogspot.com/2017/03/msanif-stuffed-fried-pancakes.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1qOjEkHfB3OsbTYpKftdvGmukUONN0b4qds9Sw4j_7Oh27tgAZMKXWA1UVSj5d-XMhQ_QC5pkNXZ6M9d9NWecZsHxVja_1aktk7kukAxm8y3yBu2vjZxscmJ3vvQWJw9yxWto8cBIKGlp/w1200-h630-p-k-no-nu/Slide2.JPG",
+    "title": "Msanif (Meat-Stuffed Pancakes)",
+    "servings": 6,
+    "cooking_time": 60,
+    "id": "tz-078",
+    "description": "Whole wheat pancakes folded around spiced minced beef and pan-fried, a Zanzibari favourite.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "finger millet flour"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "plain yogurt (optional)"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "margarine (optional)"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "honey"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/02/how-to-cook-ulezi-porridge.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLHj0TVNZlxHRUvOdGPuqaQe7rueZE8ngBZahvNnZ4f5AHNdILIZ_Yk-ZiCRBJl4aYkFuORmtfuXSzan77spPPk4QsQ1HAlUvlp5tdQzzOZsdQ4NigZvbeNtltnPryac-vhuboL9RMz0Ux/w1200-h630-p-k-no-nu/finger-millet-porridge.jpg",
+    "title": "Finger Millet Porridge (Uji wa Ulezi)",
+    "servings": 2,
+    "cooking_time": 20,
+    "id": "tz-079",
+    "description": "A nourishing traditional porridge of finger millet flour sweetened with honey.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": 4,
+        "unit": "cups",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 2.5,
+        "unit": "tsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "mashed potato"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2011/07/tanzania-potato-scones-sweet.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit8nyg5UBsAFPZaFhAQfdBEsRwOd2KlKnVoev5tnQ_CZ9amt6kMfkeF9T0QVG4-AVR7CCA3bByadZxa23FKbhHpndq1vC2nKAMGyzhT2cY0cwEKeO8u7ZqsTqgWbTPs1w3ET4wycPyuhUZ/w1200-h630-p-k-no-nu/100_8043.jpg",
+    "title": "Tanzanian Sweet Potato Scones",
+    "servings": 12,
+    "cooking_time": 120,
+    "id": "tz-080",
+    "description": "Soft, sweet yeast scones enriched with mashed potato, a classic Tanzanian tea-time bake.",
+    "category": "Breakfast"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "kg",
+        "description": "wheat flour"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "wheat flour, for rolling"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "warm milk"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "oil, for cooking"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "sugar"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2020/04/chapati-laini-recipe.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtfKilFInuacKVl8hnzMZS5MbXA1BGjZT2XRBsBxUD_yfra241tl2SZgKlFVaOdCNVpwJhbgdnf9Nj8zXcCYWfqFTO2Mte-3OfDhoVQGLz8vLD772DrPxQWTdl2qFMla3YgSe5fRKzWi3_/w1200-h630-p-k-no-nu/PhotoCollage_20200418_234958327.jpg",
+    "title": "Soft Layered Chapati (Chapati Laini)",
+    "servings": 6,
+    "cooking_time": 60,
+    "id": "tz-081",
+    "description": "Soft, flaky pan-fried flatbreads made with milk, an everyday Tanzanian bread.",
+    "category": "Bread"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 650,
+        "unit": "g",
+        "description": "plain flour"
+      },
+      {
+        "quantity": 250,
+        "unit": "g",
+        "description": "warm ghee"
+      },
+      {
+        "quantity": 3,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 400,
+        "unit": "ml",
+        "description": "coconut milk"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/zanzibari-paratha-chapati/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/ScreenShot2021-01-15at00.04.10-1.webp",
+    "title": "Zanzibari Coconut Chapati",
+    "servings": 8,
+    "cooking_time": 60,
+    "id": "tz-082",
+    "description": "Buttery layered Zanzibari chapati made with ghee and coconut milk.",
+    "category": "Bread"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 3,
+        "unit": "tsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 2.25,
+        "unit": "cups",
+        "description": "coconut cream or milk"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "yogurt (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sesame seeds"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ghee, for brushing"
+      }
+    ],
+    "source_url": "https://aromaofzanzibar.blogspot.com/2018/09/mkate-wa-ufuta-sesame-bread.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKIz4v0Ap9wmqxc5iTRhyphenhyphenePkkPfyBHiTxe64qdBxh7I9GURxNsMbf1AX_UMdSNHeuZVNnzptyXg_KBowJoB951fDUBqJvaQh1zUTDA9OUUXGVidW07aygoCJ3XBkgfN_qfeK1TjDVVDMcj/w1200-h630-p-k-no-nu/1510813_1732259830327842_8927137673777431961_n.jpg",
+    "title": "Zanzibari Sesame Bread (Mkate wa Ufuta)",
+    "servings": 6,
+    "cooking_time": 120,
+    "id": "tz-083",
+    "description": "A soft yeast and coconut milk bread topped with sesame seeds, traditionally cooked over charcoal.",
+    "category": "Bread"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3.25,
+        "unit": "cups",
+        "description": "ground rice or rice flour"
+      },
+      {
+        "quantity": 1.25,
+        "unit": "cups",
+        "description": "sugar"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": 2.5,
+        "unit": "cups",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "ground cardamom"
+      }
+    ],
+    "source_url": "https://festival.si.edu/blog/2014/friday-foodways-swahili-rice-bread/",
+    "image_url": "https://festival.si.edu/sites/default/files/orchard/festival/media/default/blog/tujyhfguytfn1-290x224.jpg",
+    "title": "Swahili Rice Bread (Mkate wa Sinia)",
+    "servings": 8,
+    "cooking_time": 80,
+    "id": "tz-084",
+    "description": "A baked rice-flour and coconut milk cake-bread scented with cardamom, served with afternoon tea.",
+    "category": "Bread"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "plantains"
+      },
+      {
+        "quantity": 50,
+        "unit": "g",
+        "description": "caster sugar"
+      },
+      {
+        "quantity": 12,
+        "unit": "",
+        "description": "cardamom pods, crushed"
+      },
+      {
+        "quantity": 200,
+        "unit": "ml",
+        "description": "water"
+      },
+      {
+        "quantity": 400,
+        "unit": "ml",
+        "description": "coconut milk"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/zanzibari-cardamom-coconut-plantain-pudding/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/02/Recipe-Image-3-1.webp",
+    "title": "Plantain Coconut Pudding (Ndizi za Nazi)",
+    "servings": 4,
+    "cooking_time": 30,
+    "id": "tz-085",
+    "description": "Sweet plantains simmered in coconut milk with crushed cardamom and sugar.",
+    "category": "Dessert"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "bananas"
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "vanilla custard"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cinnamon"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground cloves"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "nutmeg, freshly grated"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "peanuts, finely chopped"
+      }
+    ],
+    "source_url": "https://www.food.com/recipe/ndizi-no-kastad-banana-custard-zanzibar-style-305105",
+    "image_url": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/30/51/05/picKKKZoA.jpg",
+    "title": "Zanzibar Banana Custard",
+    "servings": 6,
+    "cooking_time": 70,
+    "id": "tz-086",
+    "description": "Sliced bananas layered with custard and topped with spiced sugar and chopped peanuts.",
+    "category": "Dessert"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "medium papaya, peeled and sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "orange, peeled and chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "bananas, sliced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "apple, peeled and chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "cucumber, peeled and cubed"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sugar and lemon (optional)"
+      }
+    ],
+    "source_url": "https://aromaofzanzibar.blogspot.com/2015/08/zanzibar-style-fruit-salad.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1GGIAod4i1N5I9gRXvhOO2B1HztWVprrKH4BAGc4ELNQnbSn7v2vGeCr-JMG9Y0ZELqG2okvo-ENeONdjxkCrZF0nCcrSPWVNrYyEUcnb-y68MJ_Uo4KqC5YfYOkEp3Sw64YaoMFT59qw/w1200-h630-p-k-no-nu/Slide1.JPG",
+    "title": "Zanzibar Fruit Salad",
+    "servings": 4,
+    "cooking_time": 15,
+    "id": "tz-087",
+    "description": "A fresh mix of papaya, orange, banana, apple and cucumber with a squeeze of lemon.",
+    "category": "Dessert"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "banana or plantain, sliced, for the top"
+      },
+      {
+        "quantity": 100,
+        "unit": "g",
+        "description": "light brown sugar, for the caramel"
+      },
+      {
+        "quantity": 50,
+        "unit": "g",
+        "description": "butter"
+      },
+      {
+        "quantity": 160,
+        "unit": "g",
+        "description": "banana or plantain, pureed"
+      },
+      {
+        "quantity": 200,
+        "unit": "g",
+        "description": "plain flour"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "baking powder"
+      },
+      {
+        "quantity": 80,
+        "unit": "g",
+        "description": "caster sugar"
+      },
+      {
+        "quantity": 80,
+        "unit": "g",
+        "description": "light brown sugar"
+      },
+      {
+        "quantity": 100,
+        "unit": "g",
+        "description": "desiccated coconut"
+      },
+      {
+        "quantity": 3,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": 185,
+        "unit": "ml",
+        "description": "vegetable oil"
+      },
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "cardamom pods, crushed"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/banana-coconut-cardamom-cake/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/BananaCoconutCardamomCake.webp",
+    "title": "Banana, Coconut and Cardamom Cake",
+    "servings": 10,
+    "cooking_time": 70,
+    "id": "tz-088",
+    "description": "A caramel-topped upside-down cake of banana or plantain, desiccated coconut and cardamom.",
+    "category": "Dessert"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "l",
+        "description": "milk"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "agar agar"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "rose flavouring"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "cardamom seeds, freshly ground"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "almonds and raisins, to garnish"
+      }
+    ],
+    "source_url": "https://www.kaluhiskitchen.com/swahili-cooking-class-ii-faluda/",
+    "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2016/05/KENYAN-FOOD_FALUDA_DESSERTS_HOW-TO-MAKE-FALUDA_LAMU-FOOD-FESTIVAL_KALUHISKITCHEN.COM_.jpg",
+    "title": "Faluda (Rose Milk Jelly)",
+    "servings": 6,
+    "cooking_time": 30,
+    "id": "tz-089",
+    "description": "A chilled Swahili coast milk jelly set with agar agar and flavoured with rose and cardamom.",
+    "category": "Dessert"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "angel hair pasta or vermicelli"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sugar"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "cardamom"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "raisins (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2019/11/tambi-za-kukaanga-na-sukari-sweet-stir.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhViDSYwDgy6pkf7QWSMfTSlrNqqH-1pgLDG_jaa3fFGF8gRpRJc8P7zITaIWvvZ3uFdwF-Im-QQ7NrhdxA3MjaBGIGZO-Rzh25KfGrX5s59IB7jc5IHMJKWk7vKYFPeRRP03hzyicNmkq3/w1200-h630-p-k-no-nu/1572680625165738-0.png",
+    "title": "Sweet Fried Vermicelli (Tambi za Sukari)",
+    "servings": 4,
+    "cooking_time": 25,
+    "id": "tz-090",
+    "description": "Thin pasta toasted in oil, then steamed with sugar, cardamom and raisins, a classic Eid and tea-time treat.",
+    "category": "Dessert"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "rice flour"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "eggs"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "cardamom"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "saffron"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "vanilla or rose water"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ghee or oil, for frying"
+      }
+    ],
+    "source_url": "https://aromaofzanzibar.blogspot.com/2015/07/vilosa-sweet-rice-dumplings.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPppD1AKRrwQdjXNSQLL7XCXZ-xo4A_10lkAWSFNRjVu5UaoBmsqphS5QCivrvLGbnmPNYKZtZSJJYrwY1M9F6BT2HHkHAHwqMPdtH6zYMHeCt5fnYLQvsoeCg3jOSF8-dAstlaXBQJmhm/w1200-h630-p-k-no-nu/Slide1.JPG",
+    "title": "Vilosa (Sweet Rice Dumplings)",
+    "servings": 20,
+    "cooking_time": 90,
+    "id": "tz-091",
+    "description": "Small Zanzibari rice and coconut milk dumplings flavoured with cardamom, saffron and rose water.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "roasted peanuts, lightly chopped"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "coconut milk"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "coconut flakes (optional)"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "cardamom, cinnamon and nutmeg"
+      },
+      {
+        "quantity": 1.75,
+        "unit": "cups",
+        "description": "sugar"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "salt"
+      }
+    ],
+    "source_url": "https://www.africanbites.com/kashata/",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2014/10/IMG_1755.jpg",
+    "title": "Peanut Kashata",
+    "servings": 12,
+    "cooking_time": 25,
+    "id": "tz-092",
+    "description": "Crunchy peanut brittle squares with coconut and warm cardamom, cinnamon and nutmeg.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "yeast"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "corn starch"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "vegetable oil or ghee"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "plain yogurt"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "sugar, for the syrup"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "warm water, for the syrup"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "cardamom, crushed"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "saffron strands (optional)"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://aromaofzanzibar.blogspot.com/2017/07/kaimatiluqaimat-sweet-dumplings.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFbmSrATm2vjbpAEKQkGVc5MTictVzpSmtLoDJQz3WLnCAogq0cXLKO1SRVMn4j-jKyrnT4Exe_Si5xiPaA-07MSC8qMWVSpGr8JTUmZKsb7wRYkaMWkCcJcAm3C9ABtIm1_hf_rVmh6C/w1200-h630-p-k-no-nu/Slide6.JPG",
+    "title": "Kaimati (Sweet Dumplings in Syrup)",
+    "servings": 6,
+    "cooking_time": 90,
+    "id": "tz-093",
+    "description": "Crispy fried dough balls soaked in cardamom and saffron syrup, popular during Ramadan.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "kg",
+        "description": "wheat flour"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "vanilla essence"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "melted butter"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "custard powder"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "l",
+        "description": "milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "description": "salt"
+      },
+      {
+        "quantity": 1,
+        "unit": "l",
+        "description": "cooking oil"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "water, for the syrup"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "cardamom pods"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/04/crunchy-sugar-coated-visheti.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiykYg-mNT-bpE2Y6vPr_Gtv0tcnvokJKjQBhzyueJNakcyCklun3B8pHN_wLNZooTnw0iwY08xgAjGKnnrIiQ6-pu6ZAUuOCn7nR3sEse6tPRk5LuXfG0m9sYhBz9dC_z6G9LgmRkYAPVW/w1200-h630-p-k-no-nu/13392624_248523612184951_344530973_n.jpg",
+    "title": "Visheti (Sugar-Coated Crunchy Pastries)",
+    "servings": 12,
+    "cooking_time": 60,
+    "id": "tz-094",
+    "description": "Crunchy fried pastry pieces coated in a cardamom sugar syrup, a coastal tea-time treat.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1.1,
+        "unit": "kg",
+        "description": "dates, pitted"
+      },
+      {
+        "quantity": 30,
+        "unit": "g",
+        "description": "fennel seeds"
+      },
+      {
+        "quantity": 40,
+        "unit": "g",
+        "description": "sesame seeds"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "freshly ground cardamom"
+      },
+      {
+        "quantity": 150,
+        "unit": "ml",
+        "description": "vegetable oil or ghee"
+      }
+    ],
+    "source_url": "https://dinewithdina.co.uk/recipes/tenda-wa-kusonga-fennel-and-sesame-date-leather-bars/",
+    "image_url": "https://dinewithdina.co.uk/wp-content/uploads/2025/04/Fennelsesamedates-scaled.webp",
+    "title": "Tende wa Kusonga (Date Bars with Fennel and Sesame)",
+    "servings": 16,
+    "cooking_time": 60,
+    "id": "tz-095",
+    "description": "Traditional Zanzibari date sweets kneaded with ghee, fennel, sesame and cardamom.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "all-purpose flour"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "baking powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "baking soda"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "margarine or butter"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "milk"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "eggs, whisked"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "vanilla"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cardamom seeds"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "oil, for frying"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/11/half-cake-recipe-by-swahili-foods.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF4szaEI7LZT2uvSBAtumbaw94zN5ng32CObPkDQu6gFRYLKmlKd3yCWHqZnlKq-Z9yHzQZn1TcLXNQpZSZVC8rhW-NpOUJdWCrnUFyk0abK5U1hcPFlebqB43Y9UUDSyQQv-KvsaAIBGP/w1200-h630-p-k-no-nu/half-cake-063_2_orig.jpg",
+    "title": "Half Cake",
+    "servings": 12,
+    "cooking_time": 45,
+    "id": "tz-096",
+    "description": "Dense, lightly sweet fried cake squares with cardamom, sold at kiosks across Tanzania.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "granulated sugar"
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "gel food colouring"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "desiccated or freshly grated coconut"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "milk powder"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "tsp",
+        "description": "ground cardamom"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "salt"
+      },
+      {
+        "quantity": 6,
+        "unit": "tbsp",
+        "description": "coconut milk or milk"
+      }
+    ],
+    "source_url": "https://stellasmeza.blogspot.com/2013/05/kashata-za-nazi-swahili-coconut-snacks.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT3NKqCWna5Uj0Royh6kN9YSvSINVh_po_0RbV3lsY-hJM0MGkNwafVkRM5On9Way8xXw1plRdx37aLV-wtlqy9tqcGXiTTw5ABF9D97TLATIdjj2czDv3FLJKcCgg_Fse7EaNcImJroOr/w1200-h630-p-k-no-nu/kash+fin+1.JPG",
+    "title": "Coconut Kashata (Kashata za Nazi)",
+    "servings": 12,
+    "cooking_time": 30,
+    "id": "tz-097",
+    "description": "Chewy, brightly coloured coconut candy squares bound in cardamom-scented sugar syrup.",
+    "category": "Sweets"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "inch",
+        "description": "fresh ginger, sliced"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "cinnamon sticks"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "description": "black peppercorns"
+      },
+      {
+        "quantity": 10,
+        "unit": "",
+        "description": "whole cloves"
+      },
+      {
+        "quantity": 6,
+        "unit": "",
+        "description": "cardamom pods"
+      },
+      {
+        "quantity": 8,
+        "unit": "cups",
+        "description": "cold water"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "black tea"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "whole milk"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "golden brown sugar"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2014/12/chai-tanzanian-style.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyn9fMvViaw_w-LATOsaxViAs6rwDRWhMeVM4gCKVEjrm5Mi0zWW_-Vg9fOvj9ZO0MtSxoVrbAXL8HyPM_D63EQPC0oGem2TuMZvKbRxoh-KWhB4wCErLiySTHiFW4EKWzYmZsOVm3Mc0U/w1200-h630-p-k-no-nu/2014-07-06+20.21.00.jpg",
+    "title": "Tanzanian Spiced Tea (Chai)",
+    "servings": 8,
+    "cooking_time": 25,
+    "id": "tz-098",
+    "description": "Strong black tea simmered with ginger, cinnamon, cloves, cardamom and black pepper, finished with milk.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large thumb of ginger, finely chopped"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "small cinnamon sticks"
+      },
+      {
+        "quantity": 5,
+        "unit": "",
+        "description": "cardamom pods, crushed"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "description": "whole cloves"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "loose leaf black tea"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "milk"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sugar, to taste"
+      }
+    ],
+    "source_url": "https://eatwithafia.com/chai-ya-tangawizi/",
+    "image_url": "https://eatwithafia.com/wp-content/uploads/2026/03/DSC01240.jpg",
+    "title": "Ginger Tea (Chai ya Tangawizi)",
+    "servings": 4,
+    "cooking_time": 25,
+    "id": "tz-099",
+    "description": "Milky black tea brewed with plenty of fresh ginger, cinnamon, cardamom and cloves.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "tamarind pulp with seeds"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "boiling water"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "sugar"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "lime juice"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "fresh ginger, grated"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/08/refreshing-tamarind-juice.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYoZqDWG2ho4Py7HbpKHLMCO0h9gcX4YlVb-27hiqO50pmBv3X46HOrUnXcfbu4FExUiagczYbIOVaYX6xmujY9Gr4SQj3N_UGA5QTfj7H7s1YA6glzIRBNFGuR9nxQFCjEfdGxo8GJ5k5/w1200-h630-p-k-no-nu/e1b7cc1cb1292664d068ea55cb680f59.jpg",
+    "title": "Tamarind Juice (Juisi ya Ukwaju)",
+    "servings": 4,
+    "cooking_time": 180,
+    "id": "tz-100",
+    "description": "A sweet-sour tamarind drink steeped with fresh ginger and lime.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 6,
+        "unit": "",
+        "description": "carrots, peeled and chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "orange, peeled"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "piece",
+        "description": "fresh ginger root"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "water"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "sugar"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ice"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/12/east-african-carrot-orange-ginger-juice.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-5qxGl2aypkxkOsFVJsBzNqmAsEV_GHqQMrEUVK6oJwDSD4StdzqYqLrz0WpwCwIBvCkSkW5Xx1VrAvzb3CMTX1GLkE7FvGlgoCxTz8pQjiR3UJxNzdB-pC4GeHvsZND79qphXnUa2qp5/w1200-h630-p-k-no-nu/carrottt1.jpg",
+    "title": "Carrot, Orange and Ginger Juice",
+    "servings": 2,
+    "cooking_time": 15,
+    "id": "tz-101",
+    "description": "A bright blended juice of carrots, orange and fresh ginger.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "papaya"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "milk"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh lemon juice"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "sugar or honey"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2014/04/papaya-juice-juisi-ya-papai.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC9m3nAXX-6c3S99Msd3IEv2JB5pw-s6fq7IEi3Di_5rCHzGOyEHf4FT7YSYRRb7p9q8kylu6yMADtJ1oJhDI6SGGrL7vU-zvF2B3WVOosYwvMTbIbIOvHlIMrg8oneNqivqlrgCFiE6Qn/w1200-h630-p-k-no-nu/20140423_154324.jpg",
+    "title": "Papaya Juice (Juisi ya Papai)",
+    "servings": 2,
+    "cooking_time": 10,
+    "id": "tz-102",
+    "description": "A creamy blended papaya drink with milk, lemon and honey.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "description": "water"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "sugar"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ginger, chopped"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "fresh pineapple"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "lime or lemon juice (optional)"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/09/pineapple-ginger-juice.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir1PA3_Lz6dWbXTafHx8uFXP4QkaL5bHsbwEns7XdmSzHzB2nXSy8haBLpyzgn5C5pJ2wWHypbRUvJzw_PfK2jhJvm1nQQBSh7_EIMj8Smz0Q-2JzCvzLbEPOWs-TMXXDod-d2BhOM_8Yx/w1200-h630-p-k-no-nu/1506008984187.jpg",
+    "title": "Pineapple Ginger Juice",
+    "servings": 4,
+    "cooking_time": 15,
+    "id": "tz-103",
+    "description": "Fresh pineapple blended with ginger and sweetened, with an optional squeeze of lime.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "lemons, juiced"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "large cinnamon stick"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ginger, chopped"
+      },
+      {
+        "quantity": 3,
+        "unit": "tbsp",
+        "description": "honey"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2018/02/ginger-honey-lemon-and-cinnamon-tea.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisexx-OoYQlOdXdjqYjsOts82hB4KRx-dqdLoen0sNzj5oO7T7o3XQ2eUUJD-OEwSRCBptZeI7VpX6tfCbBoFlXy8PRhh0Ea66CXVHN_9RC5VxkEWMcv_rtHn2UDjwiCM7IFZR0DMbg8yZ/w1200-h630-p-k-no-nu/12-Best-Benefits-Of-Lemon-Ginger-Tea-For-Health-Skin-And-Hair.jpg",
+    "title": "Ginger, Lemon and Cinnamon Tea",
+    "servings": 2,
+    "cooking_time": 15,
+    "id": "tz-104",
+    "description": "A soothing infusion of fresh ginger and cinnamon sweetened with honey and lemon.",
+    "category": "Drink"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "description": "coconut, freshly grated"
+      },
+      {
+        "quantity": 2,
+        "unit": "",
+        "description": "green chillies"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "ginger"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "garlic clove"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "fresh coriander"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "onions"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "salt, to taste"
+      },
+      {
+        "quantity": null,
+        "unit": "",
+        "description": "water"
+      }
+    ],
+    "source_url": "https://swahilifoods.blogspot.com/2017/08/chatne-ya-nazicoconut-chutney.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfKFqIqBl8AyBlQLSTxExjKGiR2cu592pPbhV3dpqpqSkJNVm1j2-1hTFspkJ01eOgLZJhC7ZB8RuRBcCZoDiNt9hVxsm__s-41MJuDMll9J_4LneJGgBtyzlLhjkiZd1Em29PywwKI0fG/w1200-h630-p-k-no-nu/BeautyPlus_20170830153135_save_fashenista.jpg",
+    "title": "Coconut Chutney (Chatne ya Nazi)",
+    "servings": 6,
+    "cooking_time": 10,
+    "id": "tz-105",
+    "description": "A fresh green chutney of grated coconut, chilli, ginger, garlic and coriander, served with bhajia and pilau.",
+    "category": "Condiment"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "description": "chilli peppers, diced"
+      },
+      {
+        "quantity": 8,
+        "unit": "",
+        "description": "garlic cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "fresh ginger"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "description": "lime juice"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "white vinegar"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "small white onion"
+      },
+      {
+        "quantity": 4,
+        "unit": "tbsp",
+        "description": "oil"
+      }
+    ],
+    "source_url": "https://swahilimomkitchen.blogspot.com/2019/09/achali-ya-pilipili.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinNbsiHFi56LNRAy4QxxS4cOfrNKqiZgPyRaGyYAsTKD2tSteBb1jMlPDXV5pQbLazl4f5MKHeHaInQKpZ0Brupzyid4i0AJzAK7FrzVeS7cxhOwuajFsd145fn4frjXYxO5AJ_fj90gM/w1200-h630-p-k-no-nu/IMG-20190919-WA0003.jpg",
+    "title": "Chilli Pickle (Achari ya Pilipili)",
+    "servings": 12,
+    "cooking_time": 20,
+    "id": "tz-106",
+    "description": "A fiery Tanzanian chilli pickle with garlic, ginger, lime and vinegar.",
+    "category": "Condiment"
+  },
+  {
+    "publisher": "PishiPoint",
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "green mango, peeled and chopped"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "",
+        "description": "small red onion"
+      },
+      {
+        "quantity": 4,
+        "unit": "",
+        "description": "garlic cloves"
+      },
+      {
+        "quantity": 1,
+        "unit": "inch",
+        "description": "fresh ginger"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "description": "cumin seeds"
+      },
+      {
+        "quantity": 1,
+        "unit": "",
+        "description": "cinnamon stick"
+      },
+      {
+        "quantity": 2,
+        "unit": "tbsp",
+        "description": "tomato paste"
+      },
+      {
+        "quantity": 1,
+        "unit": "tbsp",
+        "description": "oil"
+      }
+    ],
+    "source_url": "https://www.internationalcuisine.com/zanzibar-mango-chutney/",
+    "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2017/03/mango-chutney-finished-e1489615453117.jpg",
+    "title": "Zanzibar Green Mango Chutney",
+    "servings": 4,
+    "cooking_time": 20,
+    "id": "tz-107",
+    "description": "A tangy cooked chutney of unripe mango with garlic, ginger, cumin and cinnamon.",
+    "category": "Condiment"
+  }
+]

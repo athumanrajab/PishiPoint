@@ -43,7 +43,7 @@ PishiPoint/
 Install [Node.js](https://nodejs.org/) and npm, then clone the repository and enter the project directory:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/athumanrajab/PishiPoint.git
 cd PishiPoint
 ```
 
@@ -65,8 +65,6 @@ Create a production build with:
 ```bash
 npm run build
 ```
-
-The generated site is written to `dist/`. Recipe search and recipe submission require an internet connection to reach the recipe API.
 
 ## How to Use
 
@@ -95,7 +93,9 @@ The generated site is written to `dist/`. Recipe search and recipe submission re
 
 ## Visit the Website
 
-A public deployment URL has not been provided yet. To view the application, run it locally using the instructions above.
+[Visit PishiPoint](https://pishipoint.netlify.app/)
+
+Source code: [GitHub repository](https://github.com/athumanrajab/PishiPoint)
 
 ## Contact
 
