@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="src/img/favicon.jpg" type="image/jpeg" />
+    <link rel="icon" href="src/img/favicon.webp" type="image/webp" />
     <link rel="stylesheet" href="src/sass/recipes.scss" />
     <script defer type="module" src="src/js/controller.js"></script>
     <title>Explore recipes · PishiPoint</title>
@@ -24,7 +24,7 @@
     <div class="container">
       <header class="header">
         <a class="header__brand" href="index.html#home" aria-label="PishiPoint home">
-          <img src="src/img/logo.jpg" alt="PishiPoint" class="header__logo" />
+          <img src="src/img/logo.webp" alt="PishiPoint" class="header__logo" width="800" height="436" />
         </a>
         <button
           class="nav__toggle"
@@ -148,25 +148,37 @@
           <label for="recipe-servings">Servings</label>
           <input id="recipe-servings" required name="servings" type="number" min="1" />
         </div>
-        <div class="upload__column">
+        <div class="upload__column upload__column--ingredients">
           <h3 class="upload__heading">Ingredients</h3>
-          <label for="recipe-ingredient-1">Ingredient 1</label>
-          <input id="recipe-ingredient-1" required name="ingredient-1" placeholder="Format: 'Quantity,Unit,Description'" />
-          <label for="recipe-ingredient-2">Ingredient 2</label>
-          <input id="recipe-ingredient-2" name="ingredient-2" placeholder="Format: 'Quantity,Unit,Description'" />
-          <label for="recipe-ingredient-3">Ingredient 3</label>
-          <input id="recipe-ingredient-3" name="ingredient-3" placeholder="Format: 'Quantity,Unit,Description'" />
-          <label for="recipe-ingredient-4">Ingredient 4</label>
-          <input id="recipe-ingredient-4" name="ingredient-4" placeholder="Format: 'Quantity,Unit,Description'" />
-          <label for="recipe-ingredient-5">Ingredient 5</label>
-          <input id="recipe-ingredient-5" name="ingredient-5" placeholder="Format: 'Quantity,Unit,Description'" />
-          <label for="recipe-ingredient-6">Ingredient 6</label>
-          <input id="recipe-ingredient-6" name="ingredient-6" placeholder="Format: 'Quantity,Unit,Description'" />
+          <p class="upload__hint">
+            Add each ingredient separately. Enter an amount and unit if you know them.
+          </p>
+          <div class="upload__ingredients">
+            <div class="ingredient-row">
+              <label>
+                <span>Amount</span>
+                <input name="ingredient-quantity" type="number" min="0.01" step="any" placeholder="e.g. 2" />
+              </label>
+              <label>
+                <span>Unit</span>
+                <input name="ingredient-unit" type="text" placeholder="e.g. cups" />
+              </label>
+              <label class="ingredient-row__description">
+                <span>Ingredient</span>
+                <input name="ingredient-description" type="text" required placeholder="e.g. chopped onions" />
+              </label>
+              <button class="ingredient-row__remove" type="button" aria-label="Remove ingredient" disabled>&times;</button>
+            </div>
+          </div>
+          <button class="btn--inline upload__add-ingredient" type="button">
+            <span aria-hidden="true">+</span> Add another ingredient
+          </button>
         </div>
         <button class="btn upload__btn" type="submit">
           <svg><use href="#icon-upload-cloud"></use></svg>
           <span>Upload</span>
         </button>
+        <p class="upload__feedback" role="status" aria-live="polite"></p>
       </form>
     </div>
   </body>

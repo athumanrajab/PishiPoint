@@ -4,7 +4,6 @@ import { async } from "regenerator-runtime";
 import { API_URL, RES_PER_PAGE, API_KEY } from "./config.js";
 // import { getJSON, sendJSON } from "./helpers.js";
 import { AJAX } from "./helpers.js";
-
 import "core-js/stable";
 
 /**
@@ -24,8 +23,31 @@ import "core-js/stable";
  * @property {number} servings Number of servings.
  * @property {number} cookingTime Cooking time in minutes.
  * @property {RecipeIngredient[]} ingredients Recipe ingredients.
+ * @property {string} [description] Recipe description used for search.
+ * @property {string} [category] Optional local recipe category.
  * @property {string} [key] Optional key for user-generated recipes.
  * @property {boolean} [bookmarked] Whether the recipe is bookmarked.
+ */
+
+/**
+ * Ingredient input values collected from the add-recipe form before conversion
+ * to the numeric/null quantity shape expected by the recipe API.
+ * @typedef {Object} RecipeIngredientFormData
+ * @property {string} quantity User-entered amount; empty when unspecified.
+ * @property {string} unit User-entered measurement unit; empty when unspecified.
+ * @property {string} description Required ingredient name and preparation details.
+ */
+
+/**
+ * Raw values submitted by the add-recipe form.
+ * @typedef {Object} RecipeFormData
+ * @property {string} title Recipe title.
+ * @property {string} sourceUrl Recipe directions URL.
+ * @property {string} image Recipe image URL.
+ * @property {string} publisher Recipe publisher.
+ * @property {string} cookingTime Cooking time in minutes.
+ * @property {string} servings Number of servings.
+ * @property {RecipeIngredientFormData[]} ingredients Ingredients entered by the user.
  */
 
 /**
@@ -51,6 +73,224 @@ export const state = {
   bookmarks: [],
 };
 
+/** Monotonically increasing token that prevents stale searches replacing newer results. */
+let searchRequestId = 0;
+
+/**
+ * Normalizes text for case- and punctuation-insensitive recipe matching.
+ * @param {string} value Text to normalize.
+ * @returns {string} Lowercase text with normalized spaces and punctuation.
+ */
+const normalizeSearchText = function (value) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/['’‘`]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+};
+
+/** Maps common English and Swahili dish names to equivalent local-search terms. */
+const searchAliases = new Map([
+  ["kuku", ["chicken"]],
+  ["chicken", ["kuku"]],
+  ["kuku wa kuchoma", ["grilled chicken"]],
+  ["grilled chicken", ["kuku wa kuchoma"]],
+  ["mchuzi wa kuku", ["chicken stew", "chicken coconut stew"]],
+  ["chicken stew", ["mchuzi wa kuku"]],
+  ["wali wa nazi", ["coconut rice"]],
+  ["coconut rice", ["wali wa nazi"]],
+  ["maharage", ["beans", "bean"]],
+  ["beans", ["maharage"]],
+  ["bean", ["maharage"]],
+  ["ndizi nyama", ["green bananas with beef", "banana and beef stew"]],
+  ["banana and meat stew", ["ndizi nyama", "green bananas with beef"]],
+  ["ugali", ["sima", "maize meal"]],
+  ["sima", ["ugali"]],
+  ["samaki", ["fish"]],
+  ["fish", ["samaki"]],
+  ["viazi", ["potato", "potatoes"]],
+  ["potato", ["viazi"]],
+  ["potatoes", ["viazi"]],
+  ["nyama ya ngombe", ["beef"]],
+  ["ngombe", ["beef"]],
+  ["beef", ["nyama ya ngombe", "ngombe"]],
+  ["chapati", ["chapatti", "chapati laini"]],
+  ["chapatti", ["chapati"]],
+  ["pilau", ["pilaw"]],
+  ["pilaw", ["pilau"]],
+]);
+
+/** Provides English API queries for Swahili terms the external service may not index. */
+const swahiliToEnglishSearchTerms = new Map([
+  ["kuku", "chicken"],
+  ["kuku wa kuchoma", "grilled chicken"],
+  ["mchuzi wa kuku", "chicken stew"],
+  ["wali wa nazi", "coconut rice"],
+  ["maharage", "beans"],
+  ["ndizi nyama", "green bananas beef"],
+  ["banana and meat stew", "banana beef stew"],
+  ["ugali", "ugali"],
+  ["sima", "ugali"],
+  ["samaki", "fish"],
+  ["viazi", "potatoes"],
+  ["nyama ya ngombe", "beef"],
+  ["ngombe", "beef"],
+  ["chapati", "chapati"],
+  ["pilau", "pilau"],
+  ["pilaw", "pilau"],
+]);
+
+/**
+ * Converts local dataset recipes to the field names expected by existing views.
+ * @param {Object} recipe Recipe from the Tanzanian JSON dataset.
+ * @param {string} recipe.source_url Source URL using the dataset's snake_case schema.
+ * @param {string} recipe.image_url Image URL using the dataset's snake_case schema.
+ * @param {number} recipe.cooking_time Cooking time using the dataset's snake_case schema.
+ * @returns {Recipe} Recipe normalized for the application.
+ */
+const normalizeLocalRecipe = function (recipe) {
+  return {
+    ...recipe,
+    sourceUrl: recipe.source_url,
+    image: recipe.image_url,
+    cookingTime: recipe.cooking_time,
+  };
+};
+
+let localRecipes;
+let localRecipeSearchIndex;
+let localRecipesPromise;
+
+/**
+ * Loads and indexes the local recipe dataset only when the user needs it.
+ * @returns {Promise<Recipe[]>} Normalized Tanzanian recipes.
+ */
+const loadLocalRecipes = function () {
+  if (!localRecipesPromise) {
+    localRecipesPromise = import("../data/tanzania-recipes.json")
+      .then((module) => {
+        const recipes = module.default ?? module;
+        localRecipes = recipes.map(normalizeLocalRecipe);
+        localRecipeSearchIndex = localRecipes.map((recipe) => ({
+          recipe,
+          title: normalizeSearchText(recipe.title),
+          description: normalizeSearchText(recipe.description ?? ""),
+          ingredients: normalizeSearchText(
+            recipe.ingredients
+              .map((ingredient) => ingredient.description)
+              .join(" "),
+          ),
+        }));
+        return localRecipes;
+      })
+      .catch((error) => {
+        localRecipesPromise = undefined;
+        throw error;
+      });
+  }
+
+  return localRecipesPromise;
+};
+
+/**
+ * Expands a search term with known English/Swahili alternatives.
+ * @param {string} query User-entered search term.
+ * @returns {string[]} Normalized search variants.
+ */
+const expandSearchQuery = function (query) {
+  const normalizedQuery = normalizeSearchText(query);
+  return [
+    normalizedQuery,
+    ...(searchAliases.get(normalizedQuery) ?? []).map(normalizeSearchText),
+  ];
+};
+
+/**
+ * Tests a normalized text field against a search phrase, allowing word prefixes.
+ * @param {string} text Normalized indexed text.
+ * @param {string} query Normalized search phrase.
+ * @returns {boolean} Whether the field contains the query.
+ */
+const matchesSearchText = function (text, query) {
+  if (!query) return false;
+  if (text.includes(query)) return true;
+
+  const textWords = text.split(" ");
+  return query.split(" ").every((queryWord) =>
+    textWords.some((textWord) => textWord.startsWith(queryWord)),
+  );
+};
+
+/**
+ * Finds local Tanzanian recipes by title, description, or ingredient.
+ * @param {string} query User-entered search term.
+ * @returns {Recipe[]} Matching local recipes, ranked by match relevance.
+ */
+const searchLocalRecipes = function (query) {
+  const variants = expandSearchQuery(query);
+
+  return localRecipeSearchIndex
+    .map((entry, index) => {
+      const score = variants.reduce((bestScore, variant) => {
+        const titleMatch = matchesSearchText(entry.title, variant);
+        const descriptionMatch = matchesSearchText(entry.description, variant);
+        const ingredientMatch = matchesSearchText(entry.ingredients, variant);
+        const currentScore = titleMatch
+          ? 3
+          : descriptionMatch
+            ? 2
+            : ingredientMatch
+              ? 1
+              : 0;
+        return Math.max(bestScore, currentScore);
+      }, 0);
+
+      return { recipe: entry.recipe, score, index };
+    })
+    .filter((match) => match.score > 0)
+    .sort((a, b) => b.score - a.score || a.index - b.index)
+    .map((match) => match.recipe);
+};
+
+/**
+ * Places local Tanzanian matches in search state before the API request completes.
+ * @param {string} query User-entered search term.
+ * @returns {Promise<Recipe[] | null>} Matching local recipes, or null if superseded.
+ */
+export const loadLocalSearchResults = async function (query) {
+  const requestId = ++searchRequestId;
+  await loadLocalRecipes();
+
+  if (requestId !== searchRequestId) return null;
+
+  state.search.query = query;
+  state.search.results = searchLocalRecipes(query);
+  state.search.page = 1;
+  return state.search.results;
+};
+
+/**
+ * Returns an English equivalent for the API when the query is a known Swahili term.
+ * @param {string} query User-entered search term.
+ * @returns {string} Search term to send to the API.
+ */
+const getApiSearchQuery = function (query) {
+  const normalizedQuery = normalizeSearchText(query);
+  return swahiliToEnglishSearchTerms.get(normalizedQuery) ?? query;
+};
+
+/**
+ * Creates a title key used to deduplicate local and API search results.
+ * @param {string} title Recipe title.
+ * @returns {string} Normalized title with parenthetical alternate names removed.
+ */
+const getRecipeTitleKey = function (title) {
+  return normalizeSearchText(title.replace(/\([^)]*\)/g, ""));
+};
+
 /**
  * Converts the API's recipe response into the application's recipe shape.
  * @param {Object} data API response containing `data.recipe`.
@@ -69,6 +309,7 @@ const createRecipeObject = function (data) {
     servings: recipe.servings,
     cookingTime: recipe.cooking_time,
     ingredients: recipe.ingredients,
+    ...(recipe.description && { description: recipe.description }),
     ...(recipe.key && { key: recipe.key }), //Conditionally include the recipe key if it exists.
   };
 };
@@ -82,6 +323,18 @@ const createRecipeObject = function (data) {
 // TODO: loading Recipe
 export const loadRecipe = async function (id) {
   try {
+    const localRecipe = id.startsWith("tz-")
+      ? (await loadLocalRecipes()).find((recipe) => recipe.id === id)
+      : undefined;
+    if (localRecipe) {
+      state.recipe = {
+        ...localRecipe,
+        ingredients: localRecipe.ingredients.map((ingredient) => ({ ...ingredient })),
+        bookmarked: state.bookmarks.some((bookmark) => bookmark.id === id),
+      };
+      return;
+    }
+
     const data = await AJAX(`${API_URL}${id}?key=${API_KEY}`);
 
     state.recipe = createRecipeObject(data);
@@ -101,25 +354,50 @@ export const loadRecipe = async function (id) {
  * Loads and normalizes recipes matching a search query.
  * Resets pagination to the first page after a successful load.
  * @param {string} query Search term.
+ * @param {Recipe[]} localResults Local matches already shown.
  * @returns {Promise<void>}
  * @throws {Error} Propagates API request errors.
  */
 // TODO: Implementing search results - Part 1 (Without pagination)
-export const loadSearchResults = async function (query) {
+export const loadSearchResults = async function (query, localResults) {
+  const requestId = searchRequestId;
+
   try {
     state.search.query = query;
+    state.search.results = localResults;
+    state.search.page = 1;
 
-    const data = await AJAX(`${API_URL}?search=${query}&key=${API_KEY}`);
+    let apiResults = [];
 
-    // NOTE: Lets create a new array by using map
-    state.search.results = data.data.recipes.map((dt) => {
-      return {
-        id: dt.id,
-        image: dt.image_url,
-        title: dt.title,
-        publisher: dt.publisher,
-        ...(dt.key && { key: dt.key }),
-      };
+    if (localResults.length < RES_PER_PAGE) {
+      try {
+        const apiQuery = encodeURIComponent(getApiSearchQuery(query));
+        const data = await AJAX(`${API_URL}?search=${apiQuery}&key=${API_KEY}`);
+        apiResults = data.data.recipes.map((recipe) => ({
+          id: recipe.id,
+          image: recipe.image_url,
+          title: recipe.title,
+          publisher: recipe.publisher,
+          ...(recipe.key && { key: recipe.key }),
+        }));
+      } catch (error) {
+        if (requestId !== searchRequestId) return;
+        if (localResults.length === 0) throw error;
+        console.warn("Recipe API search failed; showing matching local recipes.", error);
+      }
+    }
+
+    if (requestId !== searchRequestId) return;
+
+    const seenIds = new Set();
+    const seenTitles = new Set();
+    state.search.results = [...localResults, ...apiResults].filter((recipe) => {
+      const titleKey = getRecipeTitleKey(recipe.title);
+      if (seenIds.has(recipe.id) || seenTitles.has(titleKey)) return false;
+
+      seenIds.add(recipe.id);
+      seenTitles.add(titleKey);
+      return true;
     });
 
     // Reset the default page to 1 after loading the search result
@@ -212,51 +490,82 @@ const init = function () {
 
 init();
 
-// NOTE: A function that will help clearing the bookmarks during development
-/**
- * Clears local storage bookmarks for development.
- * @returns {void}
- */
-const clearBookmarks = function () {
-  localStorage.clear("bookmark");
-};
-clearBookmarks();
-
 // TODO: A function to upload recipe in the API
 
 /**
  * Parses form ingredients, uploads a recipe, and bookmarks the created recipe.
- * @param {Record<string, string>} newRecipe Recipe form values.
+ * @param {RecipeFormData} newRecipe Recipe form values.
  * @returns {Promise<void>}
- * @throws {Error} If an ingredient is malformed or the API request fails.
+ * @throws {Error} If recipe details are invalid or the API request fails.
  */
 export const uploadRecipe = async function (newRecipe) {
-  try {
-    const ingredients = Object.entries(newRecipe)
-      .filter((entry) => entry[0].startsWith("ingredient") && entry[1] !== "")
-      .map((ing) => {
-        const ingArr = ing[1].split(",").map((el) => el.trim());
-        // const ingArr = ing[1].replaceAll(" ", "").split(",");
-        if (ingArr.length !== 3)
-          throw new Error(
-            "Wrong ingredient format! Please use the correct format",
-          );
-        const [quantity, unit, description] = ingArr;
-        return { quantity: quantity ? +quantity : null, unit, description };
-      });
-    const recipe = {
-      title: newRecipe.title,
-      source_url: newRecipe.sourceUrl,
-      image_url: newRecipe.image,
-      publisher: newRecipe.publisher,
-      cooking_time: +newRecipe.cookingTime,
-      servings: +newRecipe.servings,
-      ingredients,
-    };
-    const data = await AJAX(`${API_URL}?key=${API_KEY}`, recipe);
-    state.recipe = createRecipeObject(data);
-    addBookmark(state.recipe);
-  } catch (error) {
-    throw error;
+  const requiredFields = ["title", "sourceUrl", "image", "publisher"];
+  for (const field of requiredFields) {
+    if (!newRecipe[field]?.trim()) {
+      throw new Error(`Please enter a value for ${field}.`);
+    }
   }
+
+  const cookingTime = Number(newRecipe.cookingTime);
+  const servings = Number(newRecipe.servings);
+  if (!Number.isFinite(cookingTime) || cookingTime <= 0) {
+    throw new Error("Prep time must be a number greater than zero.");
+  }
+  if (!Number.isFinite(servings) || servings <= 0) {
+    throw new Error("Servings must be a number greater than zero.");
+  }
+
+  for (const [field, value] of [
+    ["Recipe URL", newRecipe.sourceUrl],
+    ["Image URL", newRecipe.image],
+  ]) {
+    let url;
+    try {
+      url = new URL(value);
+    } catch {
+      throw new Error(`${field} must be a valid web address.`);
+    }
+    if (!["http:", "https:"].includes(url.protocol)) {
+      throw new Error(`${field} must start with http:// or https://.`);
+    }
+  }
+
+  if (!Array.isArray(newRecipe.ingredients) || newRecipe.ingredients.length === 0) {
+    throw new Error("Add at least one ingredient before uploading.");
+  }
+
+  const ingredients = newRecipe.ingredients.map((ingredient, index) => {
+    const description = ingredient.description.trim();
+    if (!description) {
+      throw new Error(`Enter a description for ingredient ${index + 1}.`);
+    }
+
+    const quantity = ingredient.quantity.trim();
+    const parsedQuantity = quantity === "" ? null : Number(quantity);
+    if (
+      parsedQuantity !== null &&
+      (!Number.isFinite(parsedQuantity) || parsedQuantity <= 0)
+    ) {
+      throw new Error(`Ingredient ${index + 1} amount must be greater than zero.`);
+    }
+
+    return {
+      quantity: parsedQuantity,
+      unit: ingredient.unit.trim(),
+      description,
+    };
+  });
+
+  const recipe = {
+    title: newRecipe.title.trim(),
+    source_url: newRecipe.sourceUrl.trim(),
+    image_url: newRecipe.image.trim(),
+    publisher: newRecipe.publisher.trim(),
+    cooking_time: cookingTime,
+    servings,
+    ingredients,
+  };
+  const data = await AJAX(`${API_URL}?key=${API_KEY}`, recipe);
+  state.recipe = createRecipeObject(data);
+  addBookmark(state.recipe);
 };

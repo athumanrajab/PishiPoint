@@ -43,7 +43,15 @@ const controlRecipes = async function () {
     const id = window.location.hash.slice(1);
     // console.log(id);
 
-    if (!/^[a-f\d]{24}$/i.test(id)) return;
+    if (!id) {
+      recipeView.renderMessage("Search above to bring the first recipe to the table.");
+      if (model.state.search.results.length > 0) {
+        resultsView.update(model.getSearchResultsPage());
+      }
+      return;
+    }
+
+    if (!/^(?:[a-f\d]{24}|tz-[a-z\d-]+)$/i.test(id)) return;
 
     // NOTE: Calling the renderSpinner()
     recipeView.renderSpinner();
@@ -55,6 +63,8 @@ const controlRecipes = async function () {
 
     // NOTE: Loading recipe which was the function imported from model.js
     await model.loadRecipe(id);
+
+    if (window.location.hash.slice(1) !== id) return;
 
     // NOTE: Rendering recipe
     recipeView.render(model.state.recipe);
@@ -86,8 +96,16 @@ const controlSearchResults = async function () {
     // Render spinner while waiting for the search results
     resultsView.renderSpinner();
 
+    const localResults = await model.loadLocalSearchResults(query);
+    if (!localResults) return;
+
+    if (localResults.length > 0) {
+      resultsView.render(model.getSearchResultsPage());
+      paginationView.render(model.state.search);
+    }
+
     // Load search results based on the passed query
-    await model.loadSearchResults(query);
+    await model.loadSearchResults(query, localResults);
 
     //  Render result
     // resultsView.render(model.state.search.results); //get all results at the same time
@@ -97,6 +115,7 @@ const controlSearchResults = async function () {
     paginationView.render(model.state.search);
   } catch (error) {
     console.error(error);
+    resultsView.renderError(error.message);
   }
 };
 
@@ -158,19 +177,18 @@ const controlBookmarks = function () {
 // TODO: Implementing add recipe feature
 /**
  * Uploads a recipe, updates the views, and closes the form after success.
- * @param {Record<string, string>} newRecipe Values submitted by the recipe form.
+ * @param {import("./model.js").RecipeFormData} newRecipe Values submitted by the recipe form.
  * @returns {Promise<void>}
  */
 const controlAddRecipe = async function (newRecipe) {
   try {
-    // Show loading spinner
-    addRecipeView.renderSpinner();
+    addRecipeView.setSubmitting(true);
 
     // Upload new recipe
     await model.uploadRecipe(newRecipe);
-    // console.log(model.state.recipe);
 
     if (document.body.dataset.page !== "recipes") {
+      addRecipeView.resetForm();
       window.location.href = `recipes.html#${model.state.recipe.id}`;
       return;
     }
@@ -178,7 +196,8 @@ const controlAddRecipe = async function (newRecipe) {
     // Render recipe
     recipeView.render(model.state.recipe);
 
-    // Render success message
+    // Reset the form and show success feedback
+    addRecipeView.resetForm();
     addRecipeView.renderMessage();
 
     // Render bookmark view
@@ -194,6 +213,8 @@ const controlAddRecipe = async function (newRecipe) {
   } catch (error) {
     console.error(`Oppss! ${error}`);
     addRecipeView.renderError(error.message);
+  } finally {
+    addRecipeView.setSubmitting(false);
   }
 };
 

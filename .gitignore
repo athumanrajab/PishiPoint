@@ -3,6 +3,7 @@ node_modules/
 
 # Parcel build output and cache
 dist/
+dir/
 .parcel-cache/
 
 # Local environment variables

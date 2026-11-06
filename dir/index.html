@@ -1,8 +1,8 @@
-<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=description content="Discover Tanzanian favourites and flavours from around the world. Find your next recipe with PishiPoint."><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel=stylesheet><link rel="icon shortcut" href=/favicon.b2c0a068.jpg type=image/jpeg><link rel=stylesheet href=/PishiPoint.6facbda4.css><script defer type=module src=/PishiPoint.461c71d4.js></script><title>PishiPoint</title><body>
+<!DOCTYPE html><html lang=en><script type=importmap>{"imports":{"9xjhf":"/tanzania-recipes.34dd1e69.js"}}</script><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=description content="Discover Tanzanian favourites and flavours from around the world. Find your next recipe with PishiPoint."><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel=stylesheet><link rel=icon href=/favicon.fba81abe.webp type=image/webp><link rel=stylesheet href=/PishiPoint.00db8a64.css><script defer type=module src=/PishiPoint.333327f6.js></script><title>PishiPoint</title><body>
     <div class=container>
       <header class=header>
         <a class=header__brand href=#home aria-label="PishiPoint home">
-          <img src=/logo.41bcafdc.jpg alt=PishiPoint class=header__logo>
+          <img src=/logo.262ab5ff.webp alt=PishiPoint class=header__logo width=800 height=436>
         </a>
         <button class=nav__toggle type=button aria-expanded=false aria-controls=primary-navigation>
           <span class=nav__toggle-icon aria-hidden=true></span>
@@ -64,7 +64,7 @@
           <div class=hero__visual role=group aria-label="A Tanzanian meal of grilled fish, rice, and fresh tomato salad">
             <div class=hero__orbit aria-hidden=true></div>
             <figure class="hero__photo hero__photo--main" cite=https://gie.co.tz/wp-content/uploads/2023/11/Savoring-Local-Cuisine.jpg>
-              <img src=/tanzanian-cuisine.4cf5eea3.jpg alt="Grilled fish served with rice, fresh tomato salad, and side dishes" fetchpriority=high>
+              <img src=/tanzanian-cuisine.9012f6a0.webp alt="Grilled fish served with rice, fresh tomato salad, and side dishes" width=1280 height=854 fetchpriority=high>
             </figure>
             <figure class="hero__photo hero__photo--detail">
               <img src=https://forkify-api.herokuapp.com/images/5823_MEDIUMe744.jpg alt="Indian spiced greens from the international recipe collection" loading=lazy>
@@ -134,7 +134,7 @@
               <a href=/recipes.html data-search-query="Ndizi Nyama">Ndizi Nyama <span>↗</span></a>
               <a href=/recipes.html data-search-query=Mishkaki>Mishkaki <span>↗</span></a>
               <a href=/recipes.html data-search-query="Zanzibar Biryani">Zanzibar Biryani <span>↗</span></a>
-              <a href=/recipes.html data-search-query="Mchuzi wa Maharage">Mchuzi wa Maharage <span>↗</span></a>
+              <a href=/recipes.html data-search-query="Samaki wa Kupaka">Samaki wa Kupaka <span>↗</span></a>
             </div>
             <p class=local-table__note>
               Search these dishes in the connected recipe library. Results
@@ -301,7 +301,7 @@
 
       <footer class=footer>
         <a class=footer__brand href=#home aria-label="PishiPoint home">
-          <img src=/logo.41bcafdc.jpg alt=PishiPoint>
+          <img src=/logo.262ab5ff.webp alt=PishiPoint width=800 height=436 loading=lazy>
         </a>
         <p class=footer__tagline>From local kitchens to global flavours.</p>
         <p class=footer__description>
@@ -347,26 +347,38 @@
           <input id=recipe-servings required name=servings type=number min=1>
         </div>
 
-        <div class=upload__column>
+        <div class="upload__column upload__column--ingredients">
           <h3 class=upload__heading>Ingredients</h3>
-          <label for=recipe-ingredient-1>Ingredient 1</label>
-          <input id=recipe-ingredient-1 required name=ingredient-1 placeholder="Format: 'Quantity,Unit,Description'">
-          <label for=recipe-ingredient-2>Ingredient 2</label>
-          <input id=recipe-ingredient-2 name=ingredient-2 placeholder="Format: 'Quantity,Unit,Description'">
-          <label for=recipe-ingredient-3>Ingredient 3</label>
-          <input id=recipe-ingredient-3 name=ingredient-3 placeholder="Format: 'Quantity,Unit,Description'">
-          <label for=recipe-ingredient-4>Ingredient 4</label>
-          <input id=recipe-ingredient-4 name=ingredient-4 placeholder="Format: 'Quantity,Unit,Description'">
-          <label for=recipe-ingredient-5>Ingredient 5</label>
-          <input id=recipe-ingredient-5 name=ingredient-5 placeholder="Format: 'Quantity,Unit,Description'">
-          <label for=recipe-ingredient-6>Ingredient 6</label>
-          <input id=recipe-ingredient-6 name=ingredient-6 placeholder="Format: 'Quantity,Unit,Description'">
+          <p class=upload__hint>
+            Add each ingredient separately. Enter an amount and unit if you know them.
+          </p>
+          <div class=upload__ingredients>
+            <div class=ingredient-row>
+              <label>
+                <span>Amount</span>
+                <input name=ingredient-quantity type=number min=0.01 step=any placeholder="e.g. 2">
+              </label>
+              <label>
+                <span>Unit</span>
+                <input name=ingredient-unit placeholder="e.g. cups">
+              </label>
+              <label class=ingredient-row__description>
+                <span>Ingredient</span>
+                <input name=ingredient-description required placeholder="e.g. chopped onions">
+              </label>
+              <button class=ingredient-row__remove type=button aria-label="Remove ingredient" disabled>×</button>
+            </div>
+          </div>
+          <button class="btn--inline upload__add-ingredient" type=button>
+            <span aria-hidden=true>+</span> Add another ingredient
+          </button>
         </div>
 
         <button class="btn upload__btn">
           <svg><use href=#icon-upload-cloud /></svg>
           <span>Upload</span>
         </button>
+        <p class=upload__feedback role=status aria-live=polite></p>
       </form>
     </div>
   
