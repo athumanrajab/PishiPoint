@@ -10,8 +10,6 @@ import paginationView from "./views/paginationView.js";
 import bookmarksView from "./views/bookmarksView.js";
 import addRecipeView from "./views/addRecipeView.js";
 
-import "core-js/stable"; //Polyfilling modern js features such as Promise.allSettled([...]);
-import "regenerator-runtime/runtime"; //Polyfilling async await
 import { MODAL_CLOSE_SEC } from "./config.js";
 // import { MODAL_CLOSE_SEC } from "./config.js";
 

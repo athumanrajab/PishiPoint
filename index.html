@@ -14,10 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="src/img/favicon.jpg" type="image/jpeg" />
+    <link rel="shortcut icon" href="src/img/favicon-small.jpg" type="image/jpeg" />
 
     <link rel="stylesheet" href="src/sass/main.scss" />
-    <script defer type="module" src="src/js/controller.js"></script>
+    <script defer type="module" src="src/js/home.js"></script>
 
     <title>PishiPoint</title>
   </head>
@@ -26,7 +26,7 @@
     <div class="container">
       <header class="header">
         <a class="header__brand" href="#home" aria-label="PishiPoint home">
-          <img src="src/img/logo.jpg" alt="PishiPoint" class="header__logo" />
+          <img src="src/img/logo.webp" alt="PishiPoint" class="header__logo" width="440" height="240" decoding="async" />
         </a>
         <button
           class="nav__toggle"
@@ -69,7 +69,7 @@
             <div class="search-tools">
               <form
                 class="search"
-                id="recipe-search"
+                id="recipe-search" action="recipes.html" method="get"
                 role="search"
                 aria-label="Search recipes"
               >
@@ -81,7 +81,7 @@
                 </svg>
                 <input
                   type="search"
-                  id="recipe-search-input"
+                  id="recipe-search-input" name="search" required
                   class="search__field"
                   placeholder="Try rice, fish, or an ingredient..."
                   autocomplete="off"
@@ -116,16 +116,16 @@
               cite="https://gie.co.tz/wp-content/uploads/2023/11/Savoring-Local-Cuisine.jpg"
             >
               <img
-                src="src/img/tanzanian-cuisine.jpg"
+                src="src/img/tanzanian-cuisine.webp"
                 alt="Grilled fish served with rice, fresh tomato salad, and side dishes"
-                fetchpriority="high"
+                fetchpriority="high" width="960" height="640"
               />
             </figure>
             <figure class="hero__photo hero__photo--detail">
               <img
-                src="https://forkify-api.herokuapp.com/images/5823_MEDIUMe744.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2F5823_MEDIUMe744.jpg&amp;w=640&amp;q=75"
                 alt="Indian spiced greens from the international recipe collection"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
             </figure>
           </div>
@@ -360,9 +360,9 @@
               data-search-query="breakfast"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/breakfastquesadilladc70.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2Fbreakfastquesadilladc70.jpg&amp;w=640&amp;q=75"
                 alt="Breakfast quesadilla from The Pioneer Woman"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="category-card__number">01</span>
               <span class="category-card__source"
@@ -377,9 +377,9 @@
               data-search-query="lunch"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/an_ideal_lunch_saladd9cf.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2Fan_ideal_lunch_saladd9cf.jpg&amp;w=640&amp;q=75"
                 alt="Lunch salad from 101 Cookbooks"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="category-card__number">02</span>
               <span class="category-card__source">Image: 101 Cookbooks</span>
@@ -392,9 +392,9 @@
               data-search-query="dinner"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/49823431c5.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2F49823431c5.jpg&amp;w=640&amp;q=75"
                 alt="Dinner in a pumpkin from All Recipes"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="category-card__number">03</span>
               <span class="category-card__source">Image: All Recipes</span>
@@ -407,9 +407,9 @@
               data-search-query="snack"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/985140288c.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2F985140288c.jpg&amp;w=640&amp;q=75"
                 alt="Mediterranean bagel snacks from All Recipes"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="category-card__number">04</span>
               <span class="category-card__source">Image: All Recipes</span>
@@ -422,9 +422,9 @@
               data-search-query="dessert"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/RecipeImagec5e1.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2FRecipeImagec5e1.jpg&amp;w=640&amp;q=75"
                 alt="Orangesicle mousse dessert from Pillsbury Baking"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="category-card__number">05</span>
               <span class="category-card__source">Image: Pillsbury Baking</span>
@@ -437,9 +437,9 @@
               data-search-query="smoothie"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/carrotsmoothie_30014096fc8.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2Fcarrotsmoothie_30014096fc8.jpg&amp;w=640&amp;q=75"
                 alt="Carrot-pineapple smoothie from Real Simple"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="category-card__number">06</span>
               <span class="category-card__source">Image: Real Simple</span>
@@ -473,12 +473,12 @@
           <div class="global-grid">
             <a
               class="global-card global-card--large"
-              href="#664c8f193e7aa067e94e84b5"
+              href="recipes.html#664c8f193e7aa067e94e84b5"
             >
               <img
-                src="https://forkify-api.herokuapp.com/images/Jerk2BFish2Bon2BCoconut2BRice2BTopped2Bwith2BBanana2Band2BPineapple2BSalsa2B5002B022799787f5e.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2FJerk2BFish2Bon2BCoconut2BRice2BTopped2Bwith2BBanana2Band2BPineapple2BSalsa2B5002B022799787f5e.jpg&amp;w=640&amp;q=75"
                 alt="Jerk fish on coconut rice with banana and pineapple salsa"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="global-card__label">Caribbean-inspired</span>
               <span class="global-card__title">Jerk Fish on Coconut Rice</span>
@@ -486,11 +486,11 @@
                 >Closet Cooking <span aria-hidden="true">↗</span></span
               >
             </a>
-            <a class="global-card" href="#664c8f193e7aa067e94e868f">
+            <a class="global-card" href="recipes.html#664c8f193e7aa067e94e868f">
               <img
-                src="https://forkify-api.herokuapp.com/images/5566512470_9e98939ab3_z2766.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2F5566512470_9e98939ab3_z2766.jpg&amp;w=640&amp;q=75"
                 alt="Pasta salad with tomatoes, zucchini, and feta"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="global-card__label">Italian-inspired</span>
               <span class="global-card__title"
@@ -500,11 +500,11 @@
                 >The Pioneer Woman <span aria-hidden="true">↗</span></span
               >
             </a>
-            <a class="global-card" href="#664c8f193e7aa067e94e8a8d">
+            <a class="global-card" href="recipes.html#664c8f193e7aa067e94e8a8d">
               <img
-                src="https://forkify-api.herokuapp.com/images/5823_MEDIUMe744.jpg"
+                data-cdn-src="/.netlify/images?url=https%3A%2F%2Fforkify-api.herokuapp.com%2Fimages%2F5823_MEDIUMe744.jpg&amp;w=640&amp;q=75"
                 alt="Indian spiced greens"
-                loading="lazy"
+                loading="lazy" decoding="async"
               />
               <span class="global-card__label">Indian-inspired</span>
               <span class="global-card__title">Indian Spiced Greens</span>
@@ -582,7 +582,7 @@
 
       <footer class="footer">
         <a class="footer__brand" href="#home" aria-label="PishiPoint home">
-          <img src="src/img/logo.jpg" alt="PishiPoint" />
+          <img src="src/img/logo.webp" alt="PishiPoint" width="440" height="240" loading="lazy" decoding="async" />
         </a>
         <p class="footer__tagline">From local kitchens to global flavours.</p>
         <p class="footer__description">

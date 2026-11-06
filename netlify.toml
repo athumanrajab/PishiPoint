@@ -1,0 +1,6 @@
+[build]
+  command = "npx parcel build index.html recipes.html --dist-dir dist"
+  publish = "dist"
+
+[images]
+  remote_images = ['https://forkify-api\.herokuapp\.com/images/.*']
