@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Discover Tanzanian favourites and flavours from around the world. Find your next recipe with PishiPoint."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="src/img/favicon.jpg" type="image/jpeg" />
+
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <script defer type="module" src="src/js/controller.js"></script>
+
+    <title>PishiPoint</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="header__brand" href="#home" aria-label="PishiPoint home">
+          <img src="src/img/logo.jpg" alt="PishiPoint" class="header__logo" />
+        </a>
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span class="nav__toggle-icon" aria-hidden="true"></span>
+          <span class="nav__toggle-label">Menu</span>
+        </button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#home">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="recipes.html">Explore</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#tanzanian">Tanzanian</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#global">Global flavours</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">Our story</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="landing">
+        <section class="hero" id="home" aria-labelledby="hero-heading">
+          <div class="hero__copy">
+            <h1 id="hero-heading">Kila pishi lina hadithi.</h1>
+            <p class="hero__description">
+              Safari ya ladha inaanzia hapa. Ungana nasi kufichua vionjo vya
+              kitamaduni na vya kisasa kutoka kila pembe ya dunia.
+            </p>
+            <div class="search-tools">
+              <form
+                class="search"
+                id="recipe-search"
+                role="search"
+                aria-label="Search recipes"
+              >
+                <label class="visually-hidden" for="recipe-search-input">
+                  Search by recipe or ingredient
+                </label>
+                <svg class="search__icon" aria-hidden="true">
+                  <use href="#icon-search"></use>
+                </svg>
+                <input
+                  type="search"
+                  id="recipe-search-input"
+                  class="search__field"
+                  placeholder="Try rice, fish, or an ingredient..."
+                  autocomplete="off"
+                />
+                <button class="btn search__btn" type="submit">
+                  <span>Find a recipe</span>
+                  <svg aria-hidden="true">
+                    <use href="#icon-arrow-right"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <div class="hero__actions">
+              <a class="text-link" href="recipes.html">
+                Explore Tanzanian dishes
+                <span aria-hidden="true">↗</span>
+              </a>
+              <span class="hero__action-divider" aria-hidden="true"></span>
+              <a class="text-link text-link--quiet" href="recipes.html">
+                Take a taste trip
+              </a>
+            </div>
+          </div>
+          <div
+            class="hero__visual"
+            role="group"
+            aria-label="A Tanzanian meal of grilled fish, rice, and fresh tomato salad"
+          >
+            <div class="hero__orbit" aria-hidden="true"></div>
+            <figure
+              class="hero__photo hero__photo--main"
+              cite="https://gie.co.tz/wp-content/uploads/2023/11/Savoring-Local-Cuisine.jpg"
+            >
+              <img
+                src="src/img/tanzanian-cuisine.jpg"
+                alt="Grilled fish served with rice, fresh tomato salad, and side dishes"
+                fetchpriority="high"
+              />
+            </figure>
+            <figure class="hero__photo hero__photo--detail">
+              <img
+                src="https://forkify-api.herokuapp.com/images/5823_MEDIUMe744.jpg"
+                alt="Indian spiced greens from the international recipe collection"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section
+          class="live-discovery"
+          id="explore-results"
+          hidden
+          aria-labelledby="discovery-heading"
+        >
+          <div class="section-heading section-heading--compact">
+            <div>
+              <p class="eyebrow">Search the recipe shelf</p>
+              <h2 id="discovery-heading">Find something <em>delicious.</em></h2>
+            </div>
+            <p>
+              Search a dish or ingredient to see recipes from the PishiPoint
+              library.
+            </p>
+          </div>
+          <div class="discovery__workspace">
+            <aside
+              class="search-results"
+              aria-label="Recipe search results"
+              aria-live="polite"
+            >
+              <ul class="results">
+                <li class="results__hint">
+                  <strong>Start with a craving</strong>
+                  Search for a dish or ingredient and recipes will appear here.
+                </li>
+              </ul>
+
+              <div class="pagination"></div>
+            </aside>
+
+            <div class="recipe">
+              <div class="message">
+                <div>
+                  <svg>
+                    <use href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <p>Search above to bring the first recipe to the table.</p>
+              </div>
+
+              <!-- <div class="spinner">
+          <svg>
+            <use href="#icon-loader"></use>
+          </svg>
+        </div> -->
+
+              <!-- <div class="error">
+            <div>
+              <svg>
+                <use href="#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>No recipes found for your query. Please try again!</p>
+          </div> -->
+
+              <!--
+        <figure class="recipe__fig">
+          <img src="src/img/test-1.jpg" alt="Tomato" class="recipe__img" />
+          <h1 class="recipe__title">
+            <span>Pasta with tomato cream sauce</span>
+          </h1>
+        </figure>
+
+        <div class="recipe__details">
+          <div class="recipe__info">
+            <svg class="recipe__info-icon">
+              <use href="#icon-clock"></use>
+            </svg>
+            <span class="recipe__info-data recipe__info-data--minutes">45</span>
+            <span class="recipe__info-text">minutes</span>
+          </div>
+          <div class="recipe__info">
+            <svg class="recipe__info-icon">
+              <use href="#icon-users"></use>
+            </svg>
+            <span class="recipe__info-data recipe__info-data--people">4</span>
+            <span class="recipe__info-text">servings</span>
+
+            <div class="recipe__info-buttons">
+              <button class="btn--tiny btn--increase-servings">
+                <svg>
+                  <use href="#icon-minus-circle"></use>
+                </svg>
+              </button>
+              <button class="btn--tiny btn--increase-servings">
+                <svg>
+                  <use href="#icon-plus-circle"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="recipe__user-generated">
+            <svg>
+              <use href="#icon-user"></use>
+            </svg>
+          </div>
+          <button class="btn--round">
+            <svg class="">
+              <use href="#icon-bookmark-fill"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="recipe__ingredients">
+          <h2 class="heading--2">Recipe ingredients</h2>
+          <ul class="recipe__ingredient-list">
+            <li class="recipe__ingredient">
+              <svg class="recipe__icon">
+                <use href="#icon-check"></use>
+              </svg>
+              <div class="recipe__quantity">1000</div>
+              <div class="recipe__description">
+                <span class="recipe__unit">g</span>
+                pasta
+              </div>
+            </li>
+
+            <li class="recipe__ingredient">
+              <svg class="recipe__icon">
+                <use href="#icon-check"></use>
+              </svg>
+              <div class="recipe__quantity">0.5</div>
+              <div class="recipe__description">
+                <span class="recipe__unit">cup</span>
+                ricotta cheese
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="recipe__directions">
+          <h2 class="heading--2">How to cook it</h2>
+          <p class="recipe__directions-text">
+            This recipe was carefully designed and tested by
+            <span class="recipe__publisher">The Pioneer Woman</span>. Please check out
+            directions at their website.
+          </p>
+          <a
+            class="btn--small recipe__btn"
+            href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/"
+            target="_blank"
+          >
+            <span>Directions</span>
+            <svg class="search__icon">
+              <use href="#icon-arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+        -->
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="local-table"
+          id="tanzanian"
+          aria-labelledby="local-heading"
+        >
+          <div class="local-table__intro">
+            <p class="eyebrow eyebrow--light">THE TASTE OF TANZANIA</p>
+            <h2 id="local-heading">
+              A taste of who we are.<br /><em>A world of what we love.</em>
+            </h2>
+            <p>
+              Discover the dishes that bring us together. Celebrate Tanzanian
+              flavours, explore global cuisine, and make every meal memorable.
+            </p>
+            <span class="local-table__signature">Twende jikoni!</span>
+          </div>
+          <div class="local-table__menu">
+            <p class="local-table__menu-label">A few flavours to look for</p>
+            <div class="dish-list">
+              <a href="recipes.html" data-search-query="Wali wa Nazi"
+                >Wali wa Nazi <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Pilau"
+                >Pilau <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Chipsi Mayai"
+                >Chipsi Mayai <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Ugali na Samaki"
+                >Ugali na Samaki <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Ndizi Nyama"
+                >Ndizi Nyama <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Mishkaki"
+                >Mishkaki <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Zanzibar Biryani"
+                >Zanzibar Biryani <span>↗</span></a
+              >
+              <a href="recipes.html" data-search-query="Mchuzi wa Maharage"
+                >Mchuzi wa Maharage <span>↗</span></a
+              >
+            </div>
+            <p class="local-table__note">
+              Search these dishes in the connected recipe library. Results
+              depend on what’s currently indexed.
+            </p>
+          </div>
+          <div class="local-table__seal" aria-hidden="true">
+            <span>LOCAL</span>
+            <span>FLAVOUR</span>
+          </div>
+        </section>
+
+        <section
+          class="categories section-pad"
+          aria-labelledby="category-heading"
+        >
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">What sounds good?</p>
+              <h2 id="category-heading">Follow your <em>appetite.</em></h2>
+            </div>
+            <p>Choose a moment in your day and let a new idea find you.</p>
+          </div>
+          <div class="category-grid">
+            <a
+              class="category-card category-card--breakfast"
+              href="recipes.html"
+              data-search-query="breakfast"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/breakfastquesadilladc70.jpg"
+                alt="Breakfast quesadilla from The Pioneer Woman"
+                loading="lazy"
+              />
+              <span class="category-card__number">01</span>
+              <span class="category-card__source"
+                >Image: The Pioneer Woman</span
+              >
+              <span class="category-card__title">Breakfast</span>
+              <span class="category-card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="category-card category-card--lunch"
+              href="recipes.html"
+              data-search-query="lunch"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/an_ideal_lunch_saladd9cf.jpg"
+                alt="Lunch salad from 101 Cookbooks"
+                loading="lazy"
+              />
+              <span class="category-card__number">02</span>
+              <span class="category-card__source">Image: 101 Cookbooks</span>
+              <span class="category-card__title">Lunch</span>
+              <span class="category-card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="category-card category-card--dinner"
+              href="recipes.html"
+              data-search-query="dinner"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/49823431c5.jpg"
+                alt="Dinner in a pumpkin from All Recipes"
+                loading="lazy"
+              />
+              <span class="category-card__number">03</span>
+              <span class="category-card__source">Image: All Recipes</span>
+              <span class="category-card__title">Dinner</span>
+              <span class="category-card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="category-card category-card--snacks"
+              href="recipes.html"
+              data-search-query="snack"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/985140288c.jpg"
+                alt="Mediterranean bagel snacks from All Recipes"
+                loading="lazy"
+              />
+              <span class="category-card__number">04</span>
+              <span class="category-card__source">Image: All Recipes</span>
+              <span class="category-card__title">Snacks</span>
+              <span class="category-card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="category-card category-card--desserts"
+              href="recipes.html"
+              data-search-query="dessert"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/RecipeImagec5e1.jpg"
+                alt="Orangesicle mousse dessert from Pillsbury Baking"
+                loading="lazy"
+              />
+              <span class="category-card__number">05</span>
+              <span class="category-card__source">Image: Pillsbury Baking</span>
+              <span class="category-card__title">Desserts</span>
+              <span class="category-card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="category-card category-card--drinks"
+              href="recipes.html"
+              data-search-query="smoothie"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/carrotsmoothie_30014096fc8.jpg"
+                alt="Carrot-pineapple smoothie from Real Simple"
+                loading="lazy"
+              />
+              <span class="category-card__number">06</span>
+              <span class="category-card__source">Image: Real Simple</span>
+              <span class="category-card__title">Drinks</span>
+              <span class="category-card__arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <p class="image-credit">
+            Category photos show recipes from the publishers credited on each
+            card.
+          </p>
+        </section>
+
+        <section
+          class="global-table section-pad"
+          id="global"
+          aria-labelledby="global-heading"
+        >
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">A little further afield</p>
+              <h2 id="global-heading">
+                Beyond borders,<br /><em>one plate at a time.</em>
+              </h2>
+            </div>
+            <p>
+              Local flavours lead the way. There’s always room at the table for
+              something new.
+            </p>
+          </div>
+          <div class="global-grid">
+            <a
+              class="global-card global-card--large"
+              href="#664c8f193e7aa067e94e84b5"
+            >
+              <img
+                src="https://forkify-api.herokuapp.com/images/Jerk2BFish2Bon2BCoconut2BRice2BTopped2Bwith2BBanana2Band2BPineapple2BSalsa2B5002B022799787f5e.jpg"
+                alt="Jerk fish on coconut rice with banana and pineapple salsa"
+                loading="lazy"
+              />
+              <span class="global-card__label">Caribbean-inspired</span>
+              <span class="global-card__title">Jerk Fish on Coconut Rice</span>
+              <span class="global-card__publisher"
+                >Closet Cooking <span aria-hidden="true">↗</span></span
+              >
+            </a>
+            <a class="global-card" href="#664c8f193e7aa067e94e868f">
+              <img
+                src="https://forkify-api.herokuapp.com/images/5566512470_9e98939ab3_z2766.jpg"
+                alt="Pasta salad with tomatoes, zucchini, and feta"
+                loading="lazy"
+              />
+              <span class="global-card__label">Italian-inspired</span>
+              <span class="global-card__title"
+                >Pasta Salad with Tomatoes, Zucchini &amp; Feta</span
+              >
+              <span class="global-card__publisher"
+                >The Pioneer Woman <span aria-hidden="true">↗</span></span
+              >
+            </a>
+            <a class="global-card" href="#664c8f193e7aa067e94e8a8d">
+              <img
+                src="https://forkify-api.herokuapp.com/images/5823_MEDIUMe744.jpg"
+                alt="Indian spiced greens"
+                loading="lazy"
+              />
+              <span class="global-card__label">Indian-inspired</span>
+              <span class="global-card__title">Indian Spiced Greens</span>
+              <span class="global-card__publisher"
+                >BBC Good Food <span aria-hidden="true">↗</span></span
+              >
+            </a>
+          </div>
+          <div class="global-cuisines" aria-label="Search recipes by cuisine">
+            <span>Explore by cuisine</span>
+            <a href="recipes.html" data-search-query="Italian">Italian</a>
+            <a href="recipes.html" data-search-query="Indian">Indian</a>
+            <a href="recipes.html" data-search-query="Chinese">Chinese</a>
+            <a href="recipes.html" data-search-query="Japanese">Japanese</a>
+            <a href="recipes.html" data-search-query="Mexican">Mexican</a>
+            <a href="recipes.html" data-search-query="Mediterranean"
+              >Mediterranean</a
+            >
+          </div>
+          <p class="image-credit">
+            Recipe images and titles shown above come from their credited
+            publishers via the connected recipe library.
+          </p>
+        </section>
+
+        <section
+          class="why-pishi section-pad"
+          id="about"
+          aria-labelledby="about-heading"
+        >
+          <div class="why-pishi__heading">
+            <p class="eyebrow eyebrow--light">The PishiPoint way</p>
+            <h2 id="about-heading">
+              Good food is a way<br />of <em>finding your way home.</em>
+            </h2>
+          </div>
+          <div class="why-pishi__points">
+            <article>
+              <span>01</span>
+              <h3>Rooted here</h3>
+              <p>
+                Make space for Tanzanian dishes, ingredients, and everyday food
+                traditions.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Curious everywhere</h3>
+              <p>
+                Discover new ideas from a world of kitchens, one recipe at a
+                time.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Made for real life</h3>
+              <p>
+                Search by dish or ingredient, save recipes, and make each one
+                your own.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="closing-cta" aria-labelledby="cta-heading">
+          <p class="eyebrow">Pull up a chair</p>
+          <h2 id="cta-heading">
+            Your next favourite meal <em>starts here.</em>
+          </h2>
+          <a class="button button--dark" href="recipes.html">
+            Explore recipes <span aria-hidden="true">↗</span>
+          </a>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a class="footer__brand" href="#home" aria-label="PishiPoint home">
+          <img src="src/img/logo.jpg" alt="PishiPoint" />
+        </a>
+        <p class="footer__tagline">From local kitchens to global flavours.</p>
+        <p class="footer__description">
+          Celebrating the taste of Tanzania, one recipe at a time.
+        </p>
+        <nav class="footer__socials" aria-label="Social media">
+          <a
+            href="https://www.instagram.com/its.purcell/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram: @its.purcell"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle class="footer__social-dot" cx="17.5" cy="6.5" r="1" />
+            </svg>
+          </a>
+          <a
+            href="https://www.tiktok.com/@iampurcell9"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok: @iampurcell9"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M19.6 7.3a6.7 6.7 0 0 1-4.1-1.4v8.4a6.1 6.1 0 1 1-5.3-6.1v3.4a2.8 2.8 0 1 0 1.9 2.7V2.5h3.4c.2 2.4 1.7 4.3 4.1 4.8v0Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/athuman-rajab-53443a35a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn: Athuman Rajab Athuman"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"
+              />
+            </svg>
+          </a>
+        </nav>
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            href="https://www.linkedin.com/in/athuman-rajab-53443a35a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Athuman Rajab Athuman</a
+          >.
+        </p>
+      </footer>
+    </div>
+
+    <div class="overlay hidden" aria-hidden="true"></div>
+    <div
+      class="add-recipe-window hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Add a recipe"
+    >
+      <button
+        class="btn--close-modal"
+        type="button"
+        aria-label="Close add recipe dialog"
+      >
+        &times;
+      </button>
+      <form class="upload">
+        <div class="upload__column">
+          <h3 class="upload__heading">Recipe data</h3>
+          <label for="recipe-title">Title</label>
+          <input id="recipe-title" required name="title" type="text" />
+          <label for="recipe-url">URL</label>
+          <input id="recipe-url" required name="sourceUrl" type="url" />
+          <label for="recipe-image">Image URL</label>
+          <input id="recipe-image" required name="image" type="url" />
+          <label for="recipe-publisher">Publisher</label>
+          <input id="recipe-publisher" required name="publisher" type="text" />
+          <label for="recipe-time">Prep time</label>
+          <input
+            id="recipe-time"
+            required
+            name="cookingTime"
+            type="number"
+            min="1"
+          />
+          <label for="recipe-servings">Servings</label>
+          <input
+            id="recipe-servings"
+            required
+            name="servings"
+            type="number"
+            min="1"
+          />
+        </div>
+
+        <div class="upload__column">
+          <h3 class="upload__heading">Ingredients</h3>
+          <label for="recipe-ingredient-1">Ingredient 1</label>
+          <input
+            id="recipe-ingredient-1"
+            type="text"
+            required
+            name="ingredient-1"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
+          <label for="recipe-ingredient-2">Ingredient 2</label>
+          <input
+            id="recipe-ingredient-2"
+            type="text"
+            name="ingredient-2"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
+          <label for="recipe-ingredient-3">Ingredient 3</label>
+          <input
+            id="recipe-ingredient-3"
+            type="text"
+            name="ingredient-3"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
+          <label for="recipe-ingredient-4">Ingredient 4</label>
+          <input
+            id="recipe-ingredient-4"
+            type="text"
+            name="ingredient-4"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
+          <label for="recipe-ingredient-5">Ingredient 5</label>
+          <input
+            id="recipe-ingredient-5"
+            type="text"
+            name="ingredient-5"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
+          <label for="recipe-ingredient-6">Ingredient 6</label>
+          <input
+            id="recipe-ingredient-6"
+            type="text"
+            name="ingredient-6"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
+        </div>
+
+        <button class="btn upload__btn" type="submit">
+          <svg>
+            <use href="#icon-upload-cloud"></use>
+          </svg>
+          <span>Upload</span>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

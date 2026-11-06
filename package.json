@@ -1,0 +1,28 @@
+{
+  "name": "pishipoint",
+  "version": "1.0.0",
+  "description": "PishiPoint recipe application",
+  "author": "Athuman Rajab",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-cache"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.16.4",
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.16.20": true,
+    "lmdb@2.8.5": true,
+    "msgpackr-extract@3.0.4": true,
+    "core-js@3.51.0": true
+  },
+  "dependencies": {
+    "core-js": "^3.51.0",
+    "fraction.js": "^5.3.4",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
